@@ -1,22 +1,47 @@
 import React from 'react';
-import Navbar from './components/Navbar'
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import Home from './Pages/Home/Home';
+import Products from './Pages/Products/Products';
+import Industries from './Pages/Industries/Industries';
+import Services from './Pages/Services/Services';
+import Works from './Pages/Works/Works';
+import About from './Pages/About/About';
+import ContactUs from './Pages/ContactUs/ContactUs';
+import GetStarted from './Pages/GetStarted/GetStarted';
+import ReadBlog from './Pages/ReadBlog/ReadBlog';
+import Careers from './Pages/Careers/Careers';
+import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy';
+import TermsOfUse from './Pages/TermsOfUse/TermsOfUse';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 import './App.css';
-import star from './Logo/star.svg';
+
 function App()
 {
   return(
     <>
-      <Navbar />
-     <div className='bodyContainer'>
-      <span >
-        <img id = 'starDoodle' src={star} alt = 'starDoodle'/>
-      </span>
-        <h1>Unleash your brand's potential</h1>
-        <h1>with our creative expertise</h1>
-        <p>Unleash your vision with our unrivaled expertise, captivating audiences and setting</p>
-        <p>your brand apart.</p>
-        <button id = 'GetStarted'>Get Started</button>
-      </div>
+     
+    <BrowserRouter>
+       <Navbar />
+       {/* <Home/> */}
+     <Routes>
+      <Route exact path='/' element={<Home/>}></Route>
+      <Route exact path='/products' element={<Products/>}></Route>
+      <Route exact path='/industries' element={<Industries/>}></Route>
+      <Route exact path='/services' element={<Services/>}></Route>
+      <Route exact path='/works' element={<Works/>}></Route>
+      <Route exact path='/about' element={<About/>}></Route>
+      <Route exact path='/contactUs' element={<ContactUs/>}></Route>
+      <Route exact path='/getStarted' element={<GetStarted/>}></Route>
+      <Route exact path='/readBlog' element={<ReadBlog/>}></Route>
+      <Route exact path='/careers' element={<Careers/>}></Route>
+      <Route exact path='/privacyPolicy' element={<PrivacyPolicy/>}></Route>
+      <Route exactpath='/termsOfUse' element={<TermsOfUse/>}></Route>
+    </Routes>
+    <div id = 'footer'>
+       <Footer/>
+    </div>
+      </BrowserRouter>
     </>
   );
 }

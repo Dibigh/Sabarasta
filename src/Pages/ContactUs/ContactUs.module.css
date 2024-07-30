@@ -1,0 +1,126 @@
+.bodyContainer
+{
+  display: flex;
+  position: relative;
+  height: auto;
+  flex-direction: column;
+  top: 60px;
+  align-items: center;
+}
+ #starDoodle
+{
+  position: relative;
+  right: 140px;
+  transform: scale(0.8);
+}
+h1{
+  text-align: center;
+  font-family: Inter;
+  font-size: 70.65px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.UnderlineText .underLine
+{
+  position: relative;
+  left: 30px;
+  display: flex;
+  margin: 0%;
+  transform: scale(0.8);
+}
+.UnderlineText img{
+    width: 450px;
+    background-image: none;
+}
+.DropDown
+{
+    position: relative;
+    height: auto;
+    width: 1420px;
+    margin-top: 5%;
+    /* left: 80px; */
+    /* background-color: brown; */
+}
+.row{
+    position: relative;
+    left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+    /* background-color: blueviolet; */
+    gap:40px;
+}
+.column1
+{  
+    position: relative;
+    /* padding: 1rem 0; */
+    flex: 1;
+    width: 600px;
+    height: 100px;
+    /* background-color: aqua; */
+  
+}
+.column1 input
+{
+    position: absolute;
+    top:0;
+    left: 0px;
+    height: 75px;
+    width: 635px;
+    font-family: "Inter";
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 30px;
+    border: 1px solid rgba(37, 37, 37, 0.5);
+}
+.column1 span{
+  position: absolute;
+  right: 30px;
+  top:45%;
+  transform: scale(2);
+  cursor:pointer;
+}
+#ColumnBig
+{
+    height: 520px;
+    width: 1420px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+#ColumnBig input
+{
+  height: 450px;
+  width: 1365px;
+  font-family: "Inter";
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 30px;
+  padding-top: 0;
+  color: black;
+  text-align: start;
+}
+#columnBig input::placeholder
+{
+ position: absolute;
+ top :0;
+ left: 0;
+}
+#ColumnBig p{
+  display: flex;
+  position: absolute;
+  top:480px;
+  left: 450px;
+  color:rgba(37, 37, 37, 0.7);
+  font-size: small
+;
+}
+.bodyContainer button{
+  margin-top: 0.2%;
+  background: var(--Dark, rgba(37, 37, 37, 1));
+  color: white;
+  width: 300px;
+  height: 50px;
+}
