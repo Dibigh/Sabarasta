@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import star from '../../Logo/star.svg';
@@ -19,13 +18,6 @@ function Products() {
          <div id={styles.GridDiv1}>Coming Soon</div>
         </div>
     </>
-=======
-import React from 'react'
-
-function Products() {
-  return (
-    <div>Products</div>
->>>>>>> 0ae8bdbb71048c3d1b3a4846edf606e59b0a184d
   )
 }
 
