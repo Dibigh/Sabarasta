@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { useNavigate } from 'react-router-dom';
@@ -36,6 +37,13 @@ function ContactUs() {
         <button>Send Enquiry</button>
         </div>
     </>
+=======
+import React from 'react'
+
+function ContactUs() {
+  return (
+    <div>ContactUs</div>
+>>>>>>> 0ae8bdbb71048c3d1b3a4846edf606e59b0a184d
   )
 }
 

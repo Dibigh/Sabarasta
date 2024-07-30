@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './Footer.css'
+<<<<<<< HEAD
 import footerPic from '../../Logo/footerPic.svg'
 function Footer() {
   return (
@@ -30,6 +31,33 @@ function Footer() {
           {/* <div id='frameicon'>
             <img id='icons' src={icons}/>
           </div> */}
+=======
+import logo1 from '../../Photos/logo (1).png'
+import logo2 from '../../Photos/Logo (2).png'
+import icons from '../../Photos/Frame.png'
+function Footer() {
+  return (
+    <div id='footer'>
+      <div id='lines'>
+        <div id='line1'></div>
+        <div id='line2'></div>
+        <div id='line3'></div>
+        <div id='line4'></div>
+      </div>
+      <div id='footercontent'>
+        <div id='content'>
+        <div id='frame'>
+          <div id='framelogo'>
+            <img id='framelogo1' src={logo1}/>
+            <img id='framelogo2' src={logo2}/>
+          </div>
+          <div id='frametext'>
+            <p>Unleash your brand’s potential with our creative expertise.</p>
+          </div>
+          <div id='frameicon'>
+            <img id='icons' src={icons}/>
+          </div>
+>>>>>>> 0ae8bdbb71048c3d1b3a4846edf606e59b0a184d
         </div>
         <div id='footermenu'>
           <div id='services'>
@@ -70,8 +98,11 @@ function Footer() {
         </div>
       </div>
     </div>
+<<<<<<< HEAD
     </footer>
   </>
+=======
+>>>>>>> 0ae8bdbb71048c3d1b3a4846edf606e59b0a184d
   )
 }
 

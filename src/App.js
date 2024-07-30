@@ -12,6 +12,10 @@ import ReadBlog from './Pages/ReadBlog/ReadBlog';
 import Careers from './Pages/Careers/Careers';
 import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy';
 import TermsOfUse from './Pages/TermsOfUse/TermsOfUse';
+<<<<<<< HEAD
+=======
+import ContentWrapper from './components/ContentWrapper/ContentWrapper';
+>>>>>>> 0ae8bdbb71048c3d1b3a4846edf606e59b0a184d
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import './App.css';
@@ -20,6 +24,7 @@ function App()
 {
   return(
     <>
+<<<<<<< HEAD
      
     <BrowserRouter>
        <Navbar />
@@ -41,6 +46,32 @@ function App()
     <div id = 'footer'>
        <Footer/>
     </div>
+=======
+    <BrowserRouter>
+    <ContentWrapper>
+    <div id='fixed'>
+      <Navbar />
+    </div>
+    <div id='scroll'>
+      <Routes>
+      <Route path='/' element={<Home/>}></Route>
+      <Route path='/products' element={<Products/>}></Route>
+      <Route path='/industries' element={<Industries/>}></Route>
+      <Route path='/services' element={<Services/>}></Route>
+      <Route path='/works' element={<Works/>}></Route>
+      <Route path='/about' element={<About/>}></Route>
+      <Route path='/contactUs' element={<ContactUs/>}></Route>
+      <Route path='/getStarted' element={<GetStarted/>}></Route>
+      <Route path='/readBlog' element={<ReadBlog/>}></Route>
+      <Route path='/careers' element={<Careers/>}></Route>
+      <Route path='/privacyPolicy' element={<PrivacyPolicy/>}></Route>
+      <Route path='/termsOfUse' element={<TermsOfUse/>}></Route>
+    </Routes>
+    <div id='test' style={{height:'1000px',background:'blue'}}></div>
+      <Footer/>
+    </div>
+    </ContentWrapper>
+>>>>>>> 0ae8bdbb71048c3d1b3a4846edf606e59b0a184d
       </BrowserRouter>
     </>
   );

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
+=======
+import React from 'react';
+>>>>>>> 0ae8bdbb71048c3d1b3a4846edf606e59b0a184d
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import './navbar.css';
@@ -19,7 +23,28 @@ const Navbar = () => {
 }
   return (
     <>
+<<<<<<< HEAD
           <div className='MainBody'>
+=======
+        {/* <header>
+            <h3>logo</h3>
+         <nav>
+            <ul>
+            <li><a className='navText' href='#Industries'>Industries</a>
+            <li><a className='navText' href='#Services'>Services</a></li> 
+            <li><a className='navText' href='#Works'>Works</a></li>
+            <li><a className='navText' href='#About'>About</a></li></li>
+            <button>
+                <FaTimes/>
+            </button>
+          </ul>     
+         </nav>
+         <button>
+            <FaBars/>
+         </button>
+         </header>  */}
+          <div className='MainBody'>{/* Mainbody */}
+>>>>>>> 0ae8bdbb71048c3d1b3a4846edf606e59b0a184d
       <header>
         <img id = 'logo' src = {logo} alt ='Logo'  onClick={()=>navigate('/')} style={{cursor:'pointer'}}/>
         <nav>

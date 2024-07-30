@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import { useNavigate } from 'react-router-dom';
 import star from '../../Logo/star.svg'
 import greenLine from '../../Logo/greenline.svg'
@@ -34,5 +35,11 @@ export default function Services() {
         </div>
         </div>
     </>
+=======
+
+export default function Services() {
+  return (
+    <div>Services</div>
+>>>>>>> 0ae8bdbb71048c3d1b3a4846edf606e59b0a184d
   )
 }

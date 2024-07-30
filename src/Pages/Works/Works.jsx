@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import { useNavigate } from 'react-router-dom';
 import star from '../../Logo/star.svg'
 import greenLine from '../../Logo/greenline.svg'
@@ -27,3 +28,13 @@ function Works() {
   );
 }
 export default Works;
+=======
+
+function Works() {
+  return (
+    <div>Works</div>
+  )
+}
+
+export default Works
+>>>>>>> 0ae8bdbb71048c3d1b3a4846edf606e59b0a184d
