@@ -1,10 +1,4 @@
 import React from 'react'
-<<<<<<< HEAD
-
-export default function Services() {
-  return (
-    <div>Services</div>
-=======
 import { useNavigate } from 'react-router-dom';
 import star from '../../Logo/star.svg'
 import greenLine from '../../Logo/greenline.svg'
@@ -40,6 +34,5 @@ export default function Services() {
         </div>
         </div>
     </>
->>>>>>> f6a7eef30e38add7c00ff552268010452c0ca48c
   )
 }
