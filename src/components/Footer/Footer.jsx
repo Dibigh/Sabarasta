@@ -4,14 +4,16 @@ import './Footer.css'
 import logo1 from '../../Photos/logo (1).png'
 import logo2 from '../../Photos/Logo (2).png'
 import icons from '../../Photos/Frame.png'
+import Group from '../../Logo/company show photo.svg'
 function Footer() {
   return (
     <div id='footer'>
-      <div id='lines'>
-        <div id='line1'></div>
-        <div id='line2'></div>
-        <div id='line3'></div>
-        <div id='line4'></div>
+      <div id = 'FooterPic'>
+        <img id = 'Pic' src={Group}></img>
+      </div>
+      <div id='SearchBar'>
+        <p>Subscribe to <span>Our NewsLetter</span></p>
+        <div id = 'SearchContainer'><input type='text' placeholder='example@gmail.com'></input><button>SUBSCRIBE</button></div>
       </div>
       <div id='footercontent'>
         <div id='content'>

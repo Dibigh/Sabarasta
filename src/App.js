@@ -12,7 +12,6 @@ import ReadBlog from './Pages/ReadBlog/ReadBlog';
 import Careers from './Pages/Careers/Careers';
 import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy';
 import TermsOfUse from './Pages/TermsOfUse/TermsOfUse';
-import ContentWrapper from './components/ContentWrapper/ContentWrapper';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import './App.css';
@@ -22,7 +21,6 @@ function App()
   return(
     <>
     <BrowserRouter>
-    <ContentWrapper>
     <div id='fixed'>
       <Navbar />
     </div>
@@ -41,10 +39,8 @@ function App()
       <Route path='/privacyPolicy' element={<PrivacyPolicy/>}></Route>
       <Route path='/termsOfUse' element={<TermsOfUse/>}></Route>
     </Routes>
-    <div id='test' style={{height:'1000px',background:'blue'}}></div>
       <Footer/>
     </div>
-    </ContentWrapper>
       </BrowserRouter>
     </>
   );
