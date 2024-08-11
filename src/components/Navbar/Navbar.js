@@ -47,11 +47,7 @@ const [isNavHidden, setIsNavHidden] = useState(false);
     return () => {
       window.removeEventListener("scroll", handleScroll());
     };
-  },lastScrollTop);
-  useEffect(()=>{
-    console.log("useEffect 2 run");
-     window.addEventListener("scroll", buttonPressed());
-  },[document.documentElement.scrollTop]);
+  },[lastScrollTop]);
   return (
     <>
       <div className='MainBody'>
