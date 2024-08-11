@@ -1,15 +1,57 @@
-.MainBody
-{
- /* display: flex;
+ .MainBody
+ {
+  margin-top: 0%;
+   display: flex;
+   height: fit-content;
   flex-direction: column;
   align-items: center;
-  justify-content: center;*/
-  height: 100%;
-}
+  justify-content: center;
+ }
+ .navbar--hidden
+ {
+ transform: translateY(-100%);
+ background-color: yellow;
+ }
+ .apple
+ {
+  position: relative;
+  display: flex;
+  flex: 1;
+  height: 30px;
+  width: 100%;
+  background-color: black;
+  justify-content: flex-end;
+ }
+ .apple ul{
+    margin-right:60px ;
+    background-color: black;
+ }
+ .apple ul li{
+  position: relative;
+  top:2px; 
+  display: inline-block;
+  padding: 8px 20px;
+  list-style: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: black;
+  border-right: 0.5px solid rgba(255, 255, 255, 1);
+ }
+ .apple ul li a{
+  text-decoration: none;
+  background: none;
+  color: rgba(255, 255, 255, 1);
+ }
+ .apple li:nth-of-type(4)
+ {
+  border: none;
+ }
 header
 {
   border-bottom: 1px solid rgba(24, 28, 57, 0.3);
-  height: 99%;
+  height: 63.78px;
   opacity: 0px;
   width: 100%;
   display: flex;
@@ -19,7 +61,7 @@ header
 }
 #logo
 {
- width: 150px;
+ width: 120px;
  margin-left: 2%;
 }
 
@@ -28,7 +70,7 @@ header
   text-decoration: none;
   color: black;
   list-style: none;
-  /*padding: 20px;*/
+  /* padding: 20px; */
   font-size: 16px;
   font-weight: 500;
 }
@@ -36,20 +78,18 @@ header
 nav{
   flex: 1;
 }
-ul {
+nav ul {
     display: flex;
     justify-content: center;
     gap: 5%;
   }
-li
+nav ul li
 {
   display: inline-block;
 }
 #span{
   margin-right: 5%;
 }
-
-
 #contact
 {
   color: black;
