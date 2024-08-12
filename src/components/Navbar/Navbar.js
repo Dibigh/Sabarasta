@@ -1,79 +1,77 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
-import { useEffect, useState } from "react";
-// import useScrollListener from "../../hooks/useScrollListener";
+import React, { useEffect, useState, useRef } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import './navbar.css';
-import logo from '../../Logo/logoText.svg'
-import '../../App.css'
+import logo from '../../Logo/logoText.svg';
+import '../../App.css';
 
 const Navbar = () => {
-  const navigate=useNavigate();
-  function buttonPressed()
-{
-  console.log('button pressed');
-  navigate('/contactUs')
+  const navigate = useNavigate();
 
-}
- 
-const [isNavHidden, setIsNavHidden] = useState(false);
+  const [show, setShow] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
-  // State to track the last scroll position
-  const [lastScrollTop, setLastScrollTop] = useState(0);
+const controlNavbar = () => {
+    try {
+      console.log('controlNavbar called');
+      console.log('window.scrollY:', window.scrollY);
+      console.log('lastScrollY:', lastScrollY);
 
-  const handleScroll = () => {
-    let currentScrollTop = window.scrollY;
-      // Determine scroll direction
-      if (currentScrollTop > lastScrollTop) {
-        // Scrolling down
-        setIsNavHidden(true);
-      } else {
-        // Scrolling up
-        setIsNavHidden(false);
+      if (window.scrollY > lastScrollY) { 
+        console.log('Scrolling down - hiding navbar');
+        setShow(false); 
+      } else { 
+        console.log('Scrolling up - showing navbar');
+        setShow(true);  
       }
 
-      // Update the last scroll position
-      setLastScrollTop(currentScrollTop);
-      console.log(`window position is ${currentScrollTop}`)
-    };
+      setLastScrollY(window.scrollY); 
+    } catch (error) {
+      console.error('Error in controlNavbar:', error);
+    }
+  };
 
   useEffect(() => {
-    console.log("useEffect run");
-    console.log(`scroll top is ${lastScrollTop}`);
-      // Add event listener for scroll
-    window.addEventListener("scroll", handleScroll());
-
-    // Clean up the event listener on component unmount
+    window.addEventListener('scroll', controlNavbar);
+    console.log('Event listener added');
+    
     return () => {
-      window.removeEventListener("scroll", handleScroll());
+      window.removeEventListener('scroll', controlNavbar);
+      console.log('Event listener removed');
     };
-  },[lastScrollTop]);
+  }, []);
+
+  function buttonPressed() {
+    console.log('button pressed');
+    navigate('/contactUs');
+  }
+
   return (
     <>
       <div className='MainBody'>
-            <div className={`${isNavHidden ? 'navbar--hidden': 'apple'}`}>
-              <ul>
-                <li className='bdLine'><a href=''>Privacy Policy</a></li>
-                <li className='bdLine'><a href=''>Terms of Service</a></li>
-                <li className='bdLine'><a href=''>Login</a></li>
-                <li><a href=''>Sign Up</a></li>
-              </ul>
-            </div>
-      <header>
-        <img id = 'logo' src = {logo} alt ='Logo'  onClick={()=>navigate('/')} style={{cursor:'pointer'}}/>
-        <nav>
+        <div className={`${show ? 'apple' : 'navbar--hidden'}`}>
           <ul>
-            <li><Link className='navText' to='/products'>Products</Link></li>
-            <li><Link className='navText' to='/industries'>Industries</Link></li>
-            <li><Link className='navText' to='/services'>Services</Link></li> 
-            <li><Link className='navText'to='works'>Works</Link></li>
-            <li><Link className='navText' to='about' >About</Link></li>
-          </ul>     
-        </nav>
-        <span id='span'><button id='contact' onClick={buttonPressed}>Contact Us</button></span>
-      </header>
+            <li className='bdLine'><a href='http://example.com'>Privacy Policy</a></li>
+            <li className='bdLine'><a href='http://example.com'>Terms of Service</a></li>
+            <li className='bdLine'><a href='http://example.com'>Login</a></li>
+            <li><a href='http://example.com'>Sign Up</a></li>
+          </ul>
+        </div>
+        <header>
+          <img id='logo' src={logo} alt='Logo' onClick={() => navigate('/')} style={{ cursor: 'pointer' }} />
+          <nav>
+            <ul>
+              <li><Link className='navText' to='/products'>Products</Link></li>
+              <li><Link className='navText' to='/industries'>Industries</Link></li>
+              <li><Link className='navText' to='/services'>Services</Link></li>
+              <li><Link className='navText' to='/works'>Works</Link></li>
+              <li><Link className='navText' to='/about'>About</Link></li>
+            </ul>
+          </nav>
+          <span id='span'><button id='contact' onClick={buttonPressed}>Contact Us</button></span>
+        </header>
       </div>
-      </>
-    );
-}
+    </>
+  );
+};
+
 export default Navbar;
