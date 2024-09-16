@@ -40,6 +40,11 @@ h1{
 }
 #GridDiv1
 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   height: 550px;
   width: 1270px;
   border:1px solid rgba(220, 20, 60, 0.7);
@@ -48,6 +53,12 @@ h1{
 }
 #GridDiv2
 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 30px;
   height: 500px;
   width: 1270px;
   border:1px solid rgba(0, 99, 174, 0.7);
@@ -56,6 +67,11 @@ h1{
 }
 #GridDiv3
 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   height: 550px;
   width: 1270px;
   background-color: rgba(98, 28, 45, 0.15);
@@ -64,6 +80,11 @@ h1{
 }
 #GridDiv4
 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   height: 550px;
   width: 1270px;
   background-color: rgba(255, 0, 0, 0.15);
@@ -72,6 +93,11 @@ h1{
 }
 #GridDiv5
 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   height: 550px;
   width: 1270px;
   background-color: rgba(6, 71, 158, 0.15);
@@ -80,9 +106,55 @@ h1{
 }
 #GridDiv6
 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   height: 550px;
   width: 1270px;
   background-color: rgba(6, 71, 158, 0.15);
   border: 1px solid rgba(6, 71, 158, 0.7);
   border-radius: 8px;
+}
+.TextContainer
+{
+  position: absolute;
+  left: 60px;
+  width: 480px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background:none;
+}
+.Pics
+{
+  margin-bottom: 10%;
+}
+.TextContainer p
+{
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  background: none;
+}
+.TextContainer div{
+  background: none;
+}
+.TextContainer img{
+  background: none;
+}
+.BlackContainer
+{
+  position: absolute;
+  right: 60px;
+  width: 646px;
+  height: fit-content;
+  border-radius: 4px;
+  opacity: 0px;
+  background: none;
 }
