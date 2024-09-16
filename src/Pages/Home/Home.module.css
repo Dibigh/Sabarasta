@@ -3,6 +3,7 @@
   padding: 0;  
   background-color: #E9EAE9;
   font-family: "Inter", sans-serif;
+  /* width: 1920px; */
 }
 .bodyContainer
 {
@@ -63,8 +64,8 @@ overflow: hidden;
 #Curve
 {
   position: absolute;
-  left: 32%;
-  top: 4.8%;
+  left: 32.5%;
+  top: 4.4%;
   height: 200px;
   width: 200px;
   transform: rotate(18.10deg);
@@ -78,6 +79,37 @@ top: 610px;
 left: 225px;
 gap: 0px;
 background: var(--Dark, rgba(37, 37, 37, 1));
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.TrustedByOwner
+{
+  text-align: center;
+   margin-top: 5%;
+   font-family: "Inter", sans-serif;
+   font-size: 40px;
+   font-weight: 400;
+   line-height: 73.32px;
+}
+.TrustedByOwner span
+{
+  font-weight: 600;
+}
+.MiniContainer
+{
+margin-top: 5%;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap:20px;
+}
+.MiniContainer .Boxes
+{
+width: 197px;
+height: 140px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+background: rgba(217, 217, 217, 1);
+border: 1px solid rgba(0, 0, 0, 1);
 }
 .CenterBox
 {

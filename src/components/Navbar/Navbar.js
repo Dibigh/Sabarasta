@@ -16,49 +16,33 @@ const Navbar = () => {
 
 }
  
-const [isNavHidden, setIsNavHidden] = useState(false);
-
-  // State to track the last scroll position
+ const [isNavHidden, setIsNavHidden] = useState(false);
   const [lastScrollTop, setLastScrollTop] = useState(0);
 
-  const handleScroll = () => {
-    let currentScrollTop = window.scrollY;
-      // Determine scroll direction
+    const handleScroll = () => {
+      const currentScrollTop = window.scrollY;
+
       if (currentScrollTop > lastScrollTop) {
-        // Scrolling down
-        setIsNavHidden(true);
+        setIsNavHidden(true); // Hide navbar on scroll down
+        console.log(`navbar value is ${isNavHidden}`);
       } else {
-        // Scrolling up
-        setIsNavHidden(false);
+        setIsNavHidden(false); // Show navbar on scroll up
+        console.log(`navbar value is ${isNavHidden}`);
       }
 
-      // Update the last scroll position
-      setLastScrollTop(currentScrollTop);
-      console.log(`window position is ${currentScrollTop}`)
+      setLastScrollTop(currentScrollTop); // Update lastScrollTop
+      console.log(`scroll value is ${currentScrollTop}`);
     };
-
-  useEffect(() => {
-    console.log("useEffect run");
-    console.log(`scroll top is ${lastScrollTop}`);
-      // Add event listener for scroll
-    window.addEventListener("scroll", handleScroll());
-
-    // Clean up the event listener on component unmount
-    return () => {
-      window.removeEventListener("scroll", handleScroll());
+useEffect(()=>
+{
+  window.addEventListener('scroll', handleScroll);
+ return () => {
+      window.removeEventListener('scroll', handleScroll);
     };
-  },[lastScrollTop]);
+  }, [lastScrollTop]);
   return (
     <>
       <div className='MainBody'>
-            <div className={`${isNavHidden ? 'navbar--hidden': 'apple'}`}>
-              <ul>
-                <li className='bdLine'><a href=''>Privacy Policy</a></li>
-                <li className='bdLine'><a href=''>Terms of Service</a></li>
-                <li className='bdLine'><a href=''>Login</a></li>
-                <li><a href=''>Sign Up</a></li>
-              </ul>
-            </div>
       <header>
         <img id = 'logo' src = {logo} alt ='Logo'  onClick={()=>navigate('/')} style={{cursor:'pointer'}}/>
         <nav>

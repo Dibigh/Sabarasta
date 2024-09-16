@@ -17,9 +17,6 @@ function Home() {
   return (
     <>
       <div className={styles.bodyContainer}>
-      <span  id = {styles.starDoodle}>
-        <img src={star} alt = 'starDoodle'/>
-      </span>
         <h1>Unleash your <span className={styles.UnderlineText}>brand's potential<img className={styles.RedLine} src={redline} alt='RedLine'/></span></h1>
         <h1>with our creative expertise</h1>
         <p>Unleash your vision with our unrivaled expertise, captivating audiences and setting</p>
@@ -28,6 +25,16 @@ function Home() {
         <img id = {styles.Curve} src={curveLine} alt = 'curve'/>
         <div className={styles.BlackBox}>
           <span id={styles.BlackContainer}></span>
+        </div>
+        <div className={styles.TrustedByOwner}>Trusted by<span> The Leaders</span>
+          <div className={styles.MiniContainer}>
+            <div className={styles.Boxes}></div>
+            <div className={styles.Boxes}></div>
+            <div className={styles.Boxes}></div>
+            <div className={styles.Boxes}></div>
+            <div className={styles.Boxes}></div>
+            <div className={styles.Boxes}></div>
+          </div>
         </div>
         <div className={styles.CenterBox}>
            <p>Our <span><img className={styles.underLineW} src={redline} alt='RedLine'/>Working Progress</span></p>

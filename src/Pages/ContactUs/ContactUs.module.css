@@ -37,26 +37,25 @@ h1{
 {
     position: relative;
     height: auto;
-    width: 1420px;
+    width: 1273px;
     margin-top: 5%;
     /* left: 80px; */
     /* background-color: brown; */
 }
 .row{
     position: relative;
-    left: 10px;
     display: flex;
     justify-content: flex-start;
     margin-bottom: 50px;
     /* background-color: blueviolet; */
-    gap:40px;
+    gap:35px;
 }
 .column1
 {  
     position: relative;
     /* padding: 1rem 0; */
     flex: 1;
-    width: 600px;
+    /* width: 600px; */
     height: 100px;
     /* background-color: aqua; */
   
@@ -67,12 +66,13 @@ h1{
     top:0;
     left: 0px;
     height: 75px;
-    width: 635px;
+    width: 575px;
     font-family: "Inter";
     padding: 10px;
     font-size: 20px;
     font-weight: 400;
     padding-left: 30px;
+     outline: none;
     border: 1px solid rgba(37, 37, 37, 0.5);
 }
 .column1 span{
@@ -84,32 +84,47 @@ h1{
 }
 #ColumnBig
 {
-    height: 520px;
-    width: 1420px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
+  position: relative;
+  height: 520px;
+  border: 1px;
+  box-sizing: border-box;
+  text-align: left;
+  margin-top: 50px;
 }
 #ColumnBig input
 {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
   height: 450px;
-  width: 1365px;
+  width: 1270px;
   font-family: "Inter";
   padding: 10px;
   font-size: 20px;
   font-weight: 400;
   padding-left: 30px;
   padding-top: 0;
-  color: black;
   text-align: start;
+  outline: none;
+  border: 1px solid rgba(37, 37, 37, 0.5);
 }
-#columnBig input::placeholder
+ .inputF
+ {
+  display: inline-block; 
+ }
+.Placeholder
 {
  position: absolute;
- top :0;
- left: 0;
+ top :50px;
+ left: 30px;
+ color: rgba(138, 138, 138, 1);
+ font-family: Inter;
+ font-size: 20px;
+ font-weight: 400;
+ line-height: 24.2px;
+ text-align: left;
 }
 #ColumnBig p{
-  display: flex;
   position: absolute;
   top:480px;
   left: 450px;

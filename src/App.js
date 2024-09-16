@@ -15,12 +15,14 @@ import TermsOfUse from './Pages/TermsOfUse/TermsOfUse';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import './App.css';
+import ContentWrapper from './components/ContentWrapper/ContentWrapper';
 
 function App()
 {
   return(
     <>
     <BrowserRouter>
+    {/* <ContentWrapper> */}
     <div id='fixed'>
       <Navbar />
     </div>
@@ -41,6 +43,7 @@ function App()
     </Routes>
       <Footer/>
     </div>
+    {/* </ContentWrapper> */}
       </BrowserRouter>
     </>
   );

@@ -8,9 +8,6 @@ function Products() {
   return (
     <>
        <div className={styles.bodyContainer}>
-      <span id = {styles.starDoodle}>
-        <img src={star} alt = 'starDoodle'/>
-      </span>
         <h1>Discover Our Products:</h1>
           <h1>Solutions for <span className={styles.UnderlineText}>Every Need.<img className={styles.underLine} src={greenLine} alt='GreenLine'/></span></h1>
         <p>Explore our range of innovative products designed to empower your success. </p>

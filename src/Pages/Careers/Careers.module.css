@@ -24,7 +24,7 @@ h1{
 .UnderlineText .underLine
 {
   position: relative;
-  left: 470px;
+  left: 230px;
   display: flex;
   margin: 0%;
   transform: scale(0.8);
@@ -56,5 +56,4 @@ h1{
   font-size: 104.19px;
   font-weight: 800;
   line-height: 126.09px;
-  margin-bottom: 5%;
 }

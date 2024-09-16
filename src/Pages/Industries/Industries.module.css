@@ -1,12 +1,16 @@
 .bodyContainer
 {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   height: auto;
+  width: 100%;
   flex-direction: column;
   top: 60px;
   align-items: center;
-  /* overflow-y: hidden; */
+  overflow: hidden;
 }
 #starDoodle
 {
@@ -18,7 +22,6 @@ h1{
   font-family: Inter;
   font-size: 70.65px;
   font-weight: 800;
-  text-align: center;
 }
 
 .UnderlineText .underLine
@@ -32,22 +35,23 @@ h1{
 .Container
 {
 position: relative;
+/* left:15px; */
 margin-top: 3%;
-width: 1600px;
-height: 1400px;
 display: grid;
 grid-template-rows: repeat(3,1fr);
 grid-template-columns: repeat(2,1fr);
 justify-items: start;
 align-items: center;
-gap:50px 50px;
+grid-gap: 40px 40px;
+margin-bottom: 5%;
+/* background-color: aqua; */
 }
 .Container div{
   position: relative;
   display: inline-block;
-  width: 400px;
-  height: 400px;
-  background: none;
+  width: 250px;
+  height: 365px;
+  background:none;
 }
 .Container div h3{
   position: absolute;
@@ -55,7 +59,7 @@ gap:50px 50px;
   left: 5%;
   background: none;
   font-family: "Playfair Display", serif;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 700;
 }
 .Container p{
@@ -64,21 +68,26 @@ gap:50px 50px;
   left: 5%;
   background: none;
   font-family: "Playfair Display", serif;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 300;
 }
 .Container button
 {
   position: absolute;
-  top:80%;
+  top:87%;
   left: 5%;
   padding: 15px;
   font-family: "Playfair Display", serif;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
   text-align: center;
   border: 1px solid var(--Dark, rgba(37, 37, 37, 1));
   cursor: pointer;
+  background: none;
+  width: Hug (92.55px)px;
+  height: Hug (33.64px)px;
+  padding: 5.82px 7.27px 5.82px 7.27px;
+  border-radius: 3px 3px 3px 3px;
 }
 .Container  img{
   margin-top: 5%;
@@ -91,9 +100,10 @@ gap:50px 50px;
   grid-column: 1/2;
   background-color: rgba(68, 201, 91, 0.15);
   border: 1px solid rgba(68, 201, 91, 0.5);
-  width: 760px;
-  height: 410px;
+  width: 615px;
+  height: 380px;
   border-radius: 8px;
+  text-align: justify;
 }
 #item2
 {
@@ -101,9 +111,10 @@ gap:50px 50px;
   grid-column: 2/3;
   background-color: rgba(239, 57, 52, 0.15);
   border: 1px solid rgba(239, 57, 52, 0.5);
-  width: 760px;
-  height: 410px;
+  width: 615px;
+  height: 380px;
   border-radius: 8px;
+  text-align: justify;
 }
 #item3
 {
@@ -111,9 +122,10 @@ gap:50px 50px;
   grid-column: 1/2;
   background-color: rgba(47, 134, 235, 0.15);
   border: 1px solid rgba(47, 134, 235, 0.5);
-  width: 760px;
-  height: 410px;
+  width: 615px;
+  height: 380px;
   border-radius: 8px;
+  text-align: justify;
 }
 #item4
 {
@@ -121,9 +133,10 @@ gap:50px 50px;
   grid-column: 2/3;
   background-color: rgba(255, 180, 0, 0.15);
   border: 1px solid rgba(255, 180, 0, 0.5);
-  width: 760px;
-  height: 410px;
+  width: 615px;
+  height: 380px;
   border-radius: 8px;
+  text-align: justify;
 }
 #item5
 {
@@ -131,9 +144,10 @@ gap:50px 50px;
   grid-row: 3/4;
   background-color: rgba(220, 20, 60, 0.15);
   border: 1px solid rgba(220, 20, 60, 0.5);
-  width: 760px;
-  height: 410px;
+  width: 615px;
+  height: 380px;
   border-radius: 8px;
+  text-align: justify;
 }
 #item6
 {
@@ -141,7 +155,8 @@ gap:50px 50px;
   grid-column: 2/3;
   background-color: rgba(47, 134, 235, 0.15);
   border: 1px solid rgba(47, 134, 235, 0.5);
-  width: 760px;
-  height: 410px;
+  width: 615px;
+  height: 380px;
   border-radius: 8px;
+  text-align: justify;
 }

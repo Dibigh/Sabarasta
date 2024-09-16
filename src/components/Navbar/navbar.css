@@ -1,16 +1,11 @@
  .MainBody
  {
-  margin-top: 0%;
+   margin-top: 0%;
    display: flex;
-   height: fit-content;
+   height:auto;
   flex-direction: column;
   align-items: center;
   justify-content: center;
- }
- .navbar--hidden
- {
- transform: translateY(-100%);
- background-color: yellow;
  }
  .apple
  {
@@ -51,7 +46,7 @@
 header
 {
   border-bottom: 1px solid rgba(24, 28, 57, 0.3);
-  height: 63.78px;
+  height: 70px;
   opacity: 0px;
   width: 100%;
   display: flex;
@@ -62,7 +57,7 @@ header
 #logo
 {
  width: 120px;
- margin-left: 2%;
+ margin-left: 126.84px;
 }
 
 .navText
@@ -93,11 +88,12 @@ nav ul li
 #contact
 {
   color: black;
-  width: 150px;
+  width: 130px;
   height: 40px;
   cursor: pointer;
   font-weight: 600;
   font-size: 16px;
+  margin-right: 60px;
 }
 @media screen and (max-width:890px) {
   #contact {
@@ -106,7 +102,7 @@ nav ul li
   }
   #logo {
     width: 105px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
   #span {
     margin-right: 10px;

@@ -54,7 +54,7 @@ function Footer() {
           <div><h3>Company</h3></div>
           <div><p>Research</p></div>
           <div><p>Blog</p></div>
-          <div><p>Careers</p></div>
+          <div><p><Link to='/Careers' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>Careers</Link></p></div>
           <div><p>About</p></div>
           <div><p>Contact</p></div>
           <div><p><Link to='/privacyPolicy' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>Privacy Policy</Link></p></div>

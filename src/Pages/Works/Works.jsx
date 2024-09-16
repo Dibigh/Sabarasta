@@ -8,9 +8,6 @@ function Works() {
   return (
     <>
      <div className={styles.bodyContainer}>
-      <span id = {styles.starDoodle}>
-        <img src={star} alt = 'starDoodle'/>
-      </span>
         <h1>Explore Our Gallery, Where Every</h1>
           <h1>Project Tells <span className={styles.UnderlineText}>Success.<img className={styles.underLine} src={greenLine} alt='GreenLine'/></span></h1>
         <p>Discover the journey behind each project and the success stories that drive our passion for excellence. </p>

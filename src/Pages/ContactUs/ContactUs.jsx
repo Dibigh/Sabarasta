@@ -29,10 +29,9 @@ function ContactUs() {
             <div className = {styles.column1}><input type='dropdown' placeholder='How did you hear about us *'></input><span><RiArrowDropDownLine /></span></div>
           </div>
            <div className={styles.row}>
-            <div id = {styles.ColumnBig}><input type='text' placeholder='About your Project *'></input><center><p>By proceeding, you are agreeing to Sabrasta’s privacy policy & communication</p></center></div>
+            <div id = {styles.ColumnBig}><input type='text' className={styles.inputF}></input><div className={styles.Placeholder}>About your Project *</div><center><p>By proceeding, you are agreeing to Sabrasta’s privacy policy & communication</p></center></div>
           </div>
         </div>
-        {/* <p>By proceeding, you are agreeing to Sabrasta’s privacy policy & communication</p> */}
         <button>Send Enquiry</button>
         </div>
     </>
