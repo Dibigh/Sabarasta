@@ -11,12 +11,14 @@ function ContactUs() {
      <div className={styles.bodyContainer}>
       <span id = {styles.starDoodle}>
         <img src={star} alt = 'starDoodle'/>
+        
       </span>
         <h1>Connect With Us: Let's Start a</h1>
           <h1>Conversation.<span className={styles.UnderlineText}><img className={styles.underLine} src={greenLine} alt='GreenLine'/></span></h1>
         <p>We're here to listen, collaborate, and help you achieve your goals. Reach out today to get started. </p>
         <div className={styles.DropDown}>
           <div className={styles.row}>
+            
             <div className = {styles.column1}><input type='text' placeholder='Enter your name *'></input></div>
             <div className = {styles.column1}><input type='text' placeholder='Enter your phone number *'></input></div>
             </div>
