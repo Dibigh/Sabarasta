@@ -36,13 +36,13 @@ const Navbar = () => {
             <li><Link className='navText'to='/works' onClick={hideNavbar}>Works</Link></li>
             <li><Link className='navText' to='/about' onClick={hideNavbar}>About</Link></li>
               <button className = 'nav-btn nav_close' onClick={showNavbar} >
-              <FaTimes/>
+              <FaTimes className='hamburger_icon'/>
             </button>   
           </ul>  
         </nav>
         <span id='span'><button id='contact' onClick={buttonPressed}>Contact Us</button></span>
          <button className = 'nav-btn' onClick={showNavbar}>
-            <FaBars/>
+            <FaBars className='hamburger_icon'/>
          </button>
       </header>
       </div>
