@@ -33,9 +33,9 @@ function App()
     <>
     <BrowserRouter>
     {/* <ContentWrapper> */}
-    <div id='fixed'>
+    {/* <div id='fixed'> */}
       <Navbar />
-    </div>
+    {/* </div> */}
     <div id='scroll'>
       <Routes>
       <Route path='/' element={<Home/>}></Route>

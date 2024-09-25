@@ -6,6 +6,8 @@ import redline from '../../Logo/Vector.svg'
 import curveLine from '../../Logo/Plane Doodle.svg'
 import greenLine from '../../Logo/green.svg'
 import ThreeDots from '../../Logo/3dots.svg'
+import HomePic1 from '../../Logo/HomePic1.svg';
+import HomePic2 from '../../Logo/HomePic2.svg'
 function Home() {
   const navigate=useNavigate();
   function buttonPressed()
@@ -17,8 +19,8 @@ function Home() {
   return (
     <>
       <div className={styles.bodyContainer}>
-        <h1>Unleash your <span className={styles.UnderlineText}>brand's potential<img className={styles.RedLine} src={redline} alt='RedLine'/></span></h1>
-        <h1>with our creative expertise</h1>
+        <h1 style = {{lineheight: '60px'}}>Unleash your <span className={styles.UnderlineText}>brand's potential<img className={styles.RedLine} src={redline} alt='RedLine'/></span></h1>
+        <h1 style = {{lineheight: '60px'}}>with our creative expertise</h1>
         <p>Unleash your vision with our unrivaled expertise, captivating audiences and setting</p>
         <p>your brand apart.</p>
         <button id = {styles.GetStarted}>Get Started</button>
@@ -54,8 +56,8 @@ function Home() {
         <div className={styles.FinestWorks}>
           <div><p>Our <span><img className={styles.underLineG} src={greenLine} alt='GreenLine'/>Finest Works</span></p></div>
           <button id={styles.ExploreB}>Explore Our Work</button>
-          <div className={styles.greenContainer}></div>
-          <div className={styles.blueContainer}></div>
+          <div className={styles.greenContainer}><div className={styles.ImgDiv}><img src={HomePic1}></img></div></div>
+          <div className={styles.blueContainer}><div className={styles.ImgDiv}><img src={HomePic2}></img></div></div>
         </div>
         <div className={styles.Three}>
              <img src={ThreeDots} alt='3Dots'/>
