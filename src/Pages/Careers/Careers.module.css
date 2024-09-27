@@ -7,11 +7,11 @@
   top: 60px;
   align-items: center;
 }
- #starDoodle
+.bubbly
 {
-  position: relative;
-  right: 140px;
-  transform: scale(0.8);
+  position: absolute;
+  top: 170px;
+  left: 1220px;
 }
 h1{
   text-align: center;

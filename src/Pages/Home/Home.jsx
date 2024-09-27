@@ -8,22 +8,24 @@ import greenLine from '../../Logo/green.svg'
 import ThreeDots from '../../Logo/3dots.svg'
 import HomePic1 from '../../Logo/HomePic1.svg';
 import HomePic2 from '../../Logo/HomePic2.svg'
+import Slider1 from "../../components/Slider1/Slider1";
+import bubbles from '../../Logo/Bubbles.svg'
 function Home() {
   const navigate=useNavigate();
   function buttonPressed()
   {
     console.log('button pressed');
-    navigate('/getStarted')
+    navigate('/ContactUs')
   
   }
   return (
     <>
       <div className={styles.bodyContainer}>
-        <h1 style = {{lineheight: '60px'}}>Unleash your <span className={styles.UnderlineText}>brand's potential<img className={styles.RedLine} src={redline} alt='RedLine'/></span></h1>
-        <h1 style = {{lineheight: '60px'}}>with our creative expertise</h1>
+        <h1>Unleash your <span className={styles.UnderlineText}>brand's potential<img className={styles.RedLine} src={redline} alt='RedLine'/></span></h1>
+        <h1>with our creative expertise</h1>
         <p>Unleash your vision with our unrivaled expertise, captivating audiences and setting</p>
-        <p>your brand apart.</p>
-        <button id = {styles.GetStarted}>Get Started</button>
+        <p>your brand apart.</p><img src={bubbles} className={styles.bubbly}></img>
+        <button id = {styles.GetStarted} onClick = {buttonPressed}>Get Started</button>
         <img id = {styles.Curve} src={curveLine} alt = 'curve'/>
         <div className={styles.BlackBox}>
           <span id={styles.BlackContainer}></span>
@@ -39,7 +41,8 @@ function Home() {
           </div>
         </div>
         <div className={styles.CenterBox}>
-           <p>Our <span><img className={styles.underLineW} src={redline} alt='RedLine'/>Working Progress</span></p>
+           <p>Our <span className={styles.underLineWorld}>Working Progress</span></p>
+            {/* <img className={styles.underLineW} src={redline} alt='RedLine'/> */}
            <div className ={styles.LeftText}>
             <p>Research<span className={styles.RedDot}>.</span></p>
             <p className = {styles.MiddleOrder}>Strategize<span className={styles.RedDot}>.</span></p>
@@ -55,13 +58,13 @@ function Home() {
         </div>
         <div className={styles.FinestWorks}>
           <div><p>Our <span><img className={styles.underLineG} src={greenLine} alt='GreenLine'/>Finest Works</span></p></div>
-          <button id={styles.ExploreB}>Explore Our Work</button>
-          <div className={styles.greenContainer}><div className={styles.ImgDiv}><img src={HomePic1}></img></div></div>
-          <div className={styles.blueContainer}><div className={styles.ImgDiv}><img src={HomePic2}></img></div></div>
+           <button id={styles.ExploreB}>Explore Our Work</button>
+          {/* <div className={styles.greenContainer}><div className={styles.ImgDiv}><img src={HomePic1}></img></div></div>
+          <div className={styles.blueContainer}><div className={styles.ImgDiv}><img src={HomePic2}></img></div></div> */}
         </div>
-        <div className={styles.Three}>
-             <img src={ThreeDots} alt='3Dots'/>
-          </div>
+        <div className={styles.Slider_Div}>
+          <Slider1/>
+        </div>
          <div className={styles.clientsDiv}>
            <p><center>Our <span>Clients Adore Us</span></center></p>
            <div id = {styles.inlineContain}>

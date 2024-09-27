@@ -3,7 +3,6 @@
   padding: 0;  
   background-color: #E9EAE9;
   font-family: "Inter", sans-serif;
-  /* width: 1920px; */
 }
 .bodyContainer
 {
@@ -11,21 +10,22 @@
   position: relative;
   height: auto;
   flex-direction: column;
-  top: 60px;
+  top: 160px;
   align-items: center;
   overflow-y: hidden;
 }
-#starDoodle
+.bubbly
 {
-  position: relative;
-  right: 140px;
+  position: absolute;
+  top: 170px;
+  left: 1220px;
 }
 h1{
-  overflow: hidden;
- font-family: Inter;
+overflow: hidden;
+font-family: Inter;
 font-size: 70.65px;
 font-weight: 800;
-line-height: 65px;
+line-height: 55.5px;
 text-align: center;
 }
 .RedLine
@@ -139,18 +139,20 @@ flex-direction: column;
   font-weight: 600;
   text-align: center;
 }
-.CenterBox img
+.underLineG
+{
+  position: absolute;
+}
+/* .CenterBox img
 {
   height: 10px;
   width: 220px;
   right: 1%;
   top: 45%;
-}
+} */
 .underLineText
 {
   position: absolute;
-  top:55px;
-  right: 10px;
   transform: rotate(360deg);
   overflow-y: hidden;
 }
@@ -223,10 +225,11 @@ flex-direction: column;
   position: relative;
   margin-top: 5%;
   width: 1400px;
-  height: 700px;
+  height: 150px;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  /* overflow: hidden; */
+  /* background-color: aliceblue; */
 }
 .FinestWorks div{
   position: absolute;
@@ -252,14 +255,23 @@ flex-direction: column;
   padding: 10px;
   cursor: pointer;
 }
+.Slider_Div
+{
+  width: 1300px;
+  /* background-color: aqua; */
+}
+/* .underLineW
+{
+  position: absolute;
+} */
 .underLineG
 {
   position: absolute;
   top:70px;
-  right: 10px;
-  overflow-y: hidden;
-  height: 10px;
-  width: 220px;
+  /* right: 10px; */
+  /* overflow-y: hidden; */
+  /* height: 10px; */
+  width: 270px;
 }
 .FinestWorks .greenContainer
 {
@@ -481,7 +493,7 @@ padding-left: 40px;
   margin-top: 100px;
   margin-left: 900px;
 }
-@media screen and (max-width:890px) {
+@media screen and (max-width:940px) {
 #h1,#h1sec{
   font-size: 6vw;
 }

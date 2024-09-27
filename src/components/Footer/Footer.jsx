@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import './Footer.css'
 import logo1 from '../../Logo/FooterLogo.svg'
-// import logo2 from '../../Photos/Logo (2).png'
 import icons from '../../Photos/Frame.png'
 import Group from '../../Logo/company show photo.svg'
 function Footer() {
@@ -20,7 +19,6 @@ function Footer() {
         <div id='frame'>
           <div id='framelogo'>
             <img id='framelogo1' src={logo1}/>
-            {/* <img id='framelogo2' src={logo2}/> */}
           </div>
           <div id='frametext'>
             <p>Unleash your brand’s potential with our creative expertise.</p>
@@ -32,10 +30,10 @@ function Footer() {
         <div id='footermenu'>
           <div id='services'>
           <div><h3>Services</h3></div>
-            <div><p><Link to='/ServicesPages/ITConsulting' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>IT Consulting</Link></p></div>
-            <div><p><Link to='/ServicesPages/WebDevelopment' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>Web Design</Link></p></div>
-            <div><p><Link to='/ServicesPages/AppDevelopment' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>App Development</Link></p></div>
-            <div><p><Link to='/ServicesPages/UXUI' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>UX UI Design</Link></p></div>
+            <div><p><Link to='/Services/IT-Consulting' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>IT Consulting</Link></p></div>
+            <div><p><Link to='/Services/WebDevelopment' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>Web Design</Link></p></div>
+            <div><p><Link to='/Services/AppDevelopment' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>App Development</Link></p></div>
+            <div><p><Link to='/Services/UXUI' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>UX UI Design</Link></p></div>
             <div><p>More...</p></div>
           </div>
           <div id='products'>
@@ -44,19 +42,19 @@ function Footer() {
           </div>
           <div id='industries'>
           <div><h3>Industries</h3></div>
-          <div><p><Link to='/IndustriesPages/RealState' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>Real Estate</Link></p></div>
-          <div><p><Link to='/IndustriesPages/IT' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>IT</Link></p></div>
-          <div><p><Link to='/IndustriesPages/Media' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>Media</Link></p></div>
-          <div><p><Link to='/IndustriesPages/Ecom' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>eCommerce</Link></p></div>
-           <div><p><Link to='/IndustriesPages/Egov' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>eGovernance</Link></p></div>
+          <div><p><Link to='/Industries/Real-Estate' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>Real Estate</Link></p></div>
+          <div><p><Link to='/Industries/IT' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>IT</Link></p></div>
+          <div><p><Link to='/Industries/Media' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>Media</Link></p></div>
+          <div><p><Link to='/Industries/eCommerce' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>eCommerce</Link></p></div>
+           <div><p><Link to='/Industries/eGovernance' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>eGovernance</Link></p></div>
           </div>
           <div id='company'>
           <div><h3>Company</h3></div>
           <div><p><Link to='/Careers' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>Careers</Link></p></div>
           <div><p>About</p></div>
           <div><p>Contact</p></div>
-          <div><p><Link to='/privacyPolicy' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>Privacy Policy</Link></p></div>
-          <div><p><Link to='/termsOfUse' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>Terms of Use</Link></p></div>
+          <div><p><Link to='/privacy-Policy' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>Privacy Policy</Link></p></div>
+          <div><p><Link to='/terms-Of-Use' style={{textDecoration:'none',backgroundColor:'rgba(11, 11, 11, 1)',color:'rgba(255, 255, 255, 1)'}}>Terms of Use</Link></p></div>
           </div>
         </div>
         </div>

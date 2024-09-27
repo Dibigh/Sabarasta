@@ -1,19 +1,27 @@
 .bodyContainer
 {
-  margin-top: 50px;
+    position: relative;
+  top: 80px;
   display: flex;
-  position: relative;
   height: auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
- #starDoodle
+.bodyContainer p
 {
-  position: relative;
-  right: 140px;
-  transform: scale(0.8);
+  font-family: Inter;
+font-size: 20px;
+font-weight: 300;
+line-height: 24.2px;
+text-align: center;
+
+}
+.bubbly
+{
+  position: absolute;
+  top: 180px;
+  left: 1250px;
 }
 h1{
   text-align: center;
@@ -40,20 +48,30 @@ h1{
   height: 450px;
   width: 1300px;
   padding-left: 20px;
+  margin-bottom: 5%;
 }
-.Container :nth-of-type(1)
+.Container p
 {
- font-size: 35px;
- font-weight: 600;
- /* line-height: 50px; */
- text-align: justified;
+  font-family: Inter;
+font-size: 20px;
+font-weight: 300;
+line-height: 24.2px;
+text-align: left;
+}
+.Container P:nth-of-type(1)
+{
+font-family: Playfair Display;
+font-size: 48px;
+font-weight: 600;
+line-height: 63.98px;
+text-align: left;
 }
 .Container p span{
 font-family: Playfair Display;
 font-size: 35px;
 font-weight: 800;
 /* line-height: 50px; */
-text-align: justified;
+text-align: left;
 color:var(--Orange, rgba(239, 57, 52, 1));
 }
 .Board
@@ -83,30 +101,30 @@ grid-template-rows: repeat(2,1fr);
 grid-template-columns: repeat(3,1fr);
 justify-items: start;
 align-items: center;
-grid-gap: 40px 40px;
+grid-gap: 20px 0px;
+/* background-color: aqua; */
+width: 1330px;
+padding-left: 35px;
 }
 .GridLay img
 {
 position: absolute;
-top: 25px;
-width:350px;
-height:240px;
-border-radius: 8px;
-opacity: 0px;
+top: 15px;
+width:380px;
+height:270px;
 background: none;
 }
 .ProfileText
 {
   align-self: start;
   background: none;
-  background-color:gold;
   overflow: hidden;
 }
 .ProfileText p
 {
 position: absolute;
-top:265px;
-padding-left: 30px;
+top:280px;
+padding-left: 20px;
 font-family: Inter;
 font-size: 20px;
 font-weight: 700;
@@ -115,8 +133,8 @@ background: none;
 .ProfileText span
 {
 position: absolute;
-top: 295px;
-left: 5px;
+top: 310px;
+left: -5px;
 font-family: Inter;
 font-size: 15px;
 font-weight: 600;
@@ -126,11 +144,11 @@ background: none;
  .LogoText
 {
 position: absolute;
-top: 350px;
+top: 375px;
 font-family: Inter;
 font-size: 15px;
 font-weight: 400;
-padding-left: 30px;
+padding-left:20px;
 background: none;
 text-align: left;
 }
@@ -139,8 +157,8 @@ text-align: left;
   display: flex;
   justify-content: flex-start;
   position: absolute;
-  top: 430px;
-  left: 30px;
+  top: 455px;
+  left: 15px;
   height: 25px;
   width: 150px;
   background:none;
@@ -157,8 +175,8 @@ position: relative;
 display: flex;
 flex-direction: column;
 align-items: center;
-width:395px;
-height:495px;
+width:420px;
+height:500px;
 border-radius: 8px;
 border: 1px;
 opacity: 0px;
@@ -170,8 +188,8 @@ position: relative;
 display: flex;
 flex-direction: column;
 align-items: center;
-width:395px;
-height:495px;
+width:420px;
+height:500px;
 border-radius: 8px;
 border: 1px;
 opacity: 0px;
@@ -184,8 +202,8 @@ position: relative;
 display: flex;
 flex-direction: column;
 align-items: center;
-width:395px;
-height:495px;
+width:420px;
+height:500px;
 border-radius: 8px;
 border: 1px;
 opacity: 0px;
@@ -198,8 +216,8 @@ position: relative;
 display: flex;
 flex-direction: column;
 align-items: center;
-width:395px;
-height:495px;
+width:420px;
+height:500px;
 border-radius: 8px;
 border: 1px;
 opacity: 0px;
@@ -212,8 +230,8 @@ position: relative;
 display: flex;
 flex-direction: column;
 align-items: center;
-width:395px;
-height:495px;
+width:420px;
+height:500px;
 border-radius: 8px;
 border: 1px;
 opacity: 0px;
@@ -226,8 +244,8 @@ position: relative;
 display: flex;
 flex-direction: column;
 align-items: center;
-width:395px;
-height:495px;
+width:420px;
+height:500px;
 border-radius: 8px;
 border: 1px;
 opacity: 0px;

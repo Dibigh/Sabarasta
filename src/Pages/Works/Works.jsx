@@ -16,13 +16,14 @@ import PublicLink from '../../Logo/PublicLink.svg';
 import Alok from '../../Logo/AlokyaDeep.svg';
 import AlokLink from '../../Logo/AlokLink.svg';
 import KaloBakas from '../../Logo/KaloBakas.svg';
+import bubbles from '../../Logo/Bubbles.svg'
 function Works() {
   return (
     <>
      <div className={styles.bodyContainer}>
         <h1>Explore Our Gallery, Where Every</h1>
           <h1>Project Tells <span className={styles.UnderlineText}>Success.<img className={styles.underLine} src={greenLine} alt='GreenLine'/></span></h1>
-        <p>Discover the journey behind each project and the success stories that drive our passion for excellence. </p>
+        <p>Discover the journey behind each project and the success stories that drive our passion for excellence.</p><img src={bubbles} className={styles.bubbly}></img>
         <div className = {styles.Container}>
           <div id={styles.GridDiv1}>
             <div className ={styles.TextContainer}>

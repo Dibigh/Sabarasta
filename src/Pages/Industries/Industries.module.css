@@ -8,20 +8,16 @@
   height: auto;
   width: 100%;
   flex-direction: column;
-  top: 60px;
+  top: 80px;
   align-items: center;
   overflow: hidden;
 }
-#starDoodle
-{
-  position: relative;
-  right: 140px;
-}
 h1{
-  text-align: center;
-  font-family: Inter;
-  font-size: 70.65px;
-  font-weight: 800;
+font-family: Inter;
+font-size: 70.65px;
+font-weight: 800;
+line-height: 75.5px;
+text-align: center;
 }
 
 .UnderlineText .underLine
@@ -35,41 +31,45 @@ h1{
 .Container
 {
 position: relative;
-/* left:15px; */
 margin-top: 3%;
 display: grid;
 grid-template-rows: repeat(3,1fr);
 grid-template-columns: repeat(2,1fr);
 justify-items: start;
 align-items: center;
-grid-gap: 40px 40px;
+grid-gap: 50px 50px;
 margin-bottom: 5%;
-/* background-color: aqua; */
 }
 .Container div{
   position: relative;
   display: inline-block;
-  width: 250px;
-  height: 365px;
+  width: 290px;
+  height: 360px;
   background:none;
+  /* background-color: aqua; */
 }
 .Container div h3{
   position: absolute;
   top:7%;
   left: 5%;
   background: none;
-  font-family: "Playfair Display", serif;
-  font-size: 25px;
+  font-family: 'Inter';
+  font-size: 36px;
   font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  overflow: hidden;
 }
 .Container p{
   position: absolute;
   top:20%;
   left: 5%;
   background: none;
-  font-family: "Playfair Display", serif;
-  font-size: 15px;
-  font-weight: 300;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
 }
 .Container button
 {
@@ -77,10 +77,11 @@ margin-bottom: 5%;
   top:87%;
   left: 5%;
   padding: 15px;
-  font-family: "Playfair Display", serif;
-  font-size: 15px;
+  font-family: 'Poppins';
+  font-size: 17.55px;
   font-weight: 400;
-  text-align: center;
+  line-height: 20.82px;
+  text-align: left;
   border: 1px solid var(--Dark, rgba(37, 37, 37, 1));
   cursor: pointer;
   background: none;
@@ -88,6 +89,24 @@ margin-bottom: 5%;
   height: Hug (33.64px)px;
   padding: 5.82px 7.27px 5.82px 7.27px;
   border-radius: 3px 3px 3px 3px;
+}
+.hover_link
+{
+  text-decoration: none; 
+  color:black;
+  background: none;
+}
+.hover_link:hover
+{
+   transition: 0.3s;
+  background-color: var(--Dark, rgba(37, 37, 37, 1));
+  color:  rgba(255, 255, 255, 1);
+}
+button:hover
+{
+  transition: 0.3s;
+  background-color: var(--Dark, rgba(37, 37, 37, 1));
+  color: aliceblue;
 }
 .Container  img{
   margin-top: 5%;
@@ -100,7 +119,7 @@ margin-bottom: 5%;
   grid-column: 1/2;
   background-color: rgba(68, 201, 91, 0.15);
   border: 1px solid rgba(68, 201, 91, 0.5);
-  width: 615px;
+  width: 630px;
   height: 380px;
   border-radius: 8px;
   text-align: justify;
@@ -111,7 +130,7 @@ margin-bottom: 5%;
   grid-column: 2/3;
   background-color: rgba(239, 57, 52, 0.15);
   border: 1px solid rgba(239, 57, 52, 0.5);
-  width: 615px;
+  width: 630px;
   height: 380px;
   border-radius: 8px;
   text-align: justify;
@@ -122,7 +141,7 @@ margin-bottom: 5%;
   grid-column: 1/2;
   background-color: rgba(47, 134, 235, 0.15);
   border: 1px solid rgba(47, 134, 235, 0.5);
-  width: 615px;
+  width: 630px;
   height: 380px;
   border-radius: 8px;
   text-align: justify;
@@ -133,7 +152,7 @@ margin-bottom: 5%;
   grid-column: 2/3;
   background-color: rgba(255, 180, 0, 0.15);
   border: 1px solid rgba(255, 180, 0, 0.5);
-  width: 615px;
+  width: 630px;
   height: 380px;
   border-radius: 8px;
   text-align: justify;
@@ -144,7 +163,7 @@ margin-bottom: 5%;
   grid-row: 3/4;
   background-color: rgba(220, 20, 60, 0.15);
   border: 1px solid rgba(220, 20, 60, 0.5);
-  width: 615px;
+  width: 630px;
   height: 380px;
   border-radius: 8px;
   text-align: justify;
@@ -155,7 +174,7 @@ margin-bottom: 5%;
   grid-column: 2/3;
   background-color: rgba(47, 134, 235, 0.15);
   border: 1px solid rgba(47, 134, 235, 0.5);
-  width: 615px;
+  width: 630px;
   height: 380px;
   border-radius: 8px;
   text-align: justify;
