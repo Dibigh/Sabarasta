@@ -1,0 +1,59 @@
+.bodyContainer
+{
+  display: flex;
+  position: relative;
+  height: auto;
+  flex-direction: column;
+  top: 60px;
+  align-items: center;
+}
+.bubbly
+{
+  position: absolute;
+  top: 170px;
+  left: 1220px;
+}
+h1{
+  text-align: center;
+  font-family: Inter;
+  font-size: 70.65px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.UnderlineText .underLine
+{
+  position: relative;
+  left: 230px;
+  display: flex;
+  margin: 0%;
+  transform: scale(0.8);
+}
+.UnderlineText img{
+    width: 450px;
+    background-image: none;
+}
+.Container{
+  display: grid;
+  grid-template-columns: auto;
+  height: fit-content;
+  width: 1400px;
+  justify-content: center;
+  margin-top: 5%;
+  row-gap: 50px;
+}
+#GridDiv1
+{
+  height: 550px;
+  width: 1280px;
+  background-color: rgba(47, 134, 235, 0.15);
+  border: 1px solid rgba(47, 134, 235, 0.7);
+  border-radius: 8px;
+  color: black;
+  place-content: center;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 104.19px;
+  font-weight: 800;
+  line-height: 126.09px;
+}

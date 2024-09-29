@@ -4,14 +4,8 @@
   position: relative;
   height: auto;
   flex-direction: column;
-  top: 60px;
+  top: 80px;
   align-items: center;
-}
- #starDoodle
-{
-  position: relative;
-  right: 140px;
-  transform: scale(0.8);
 }
 h1{
   text-align: center;
@@ -20,65 +14,83 @@ h1{
   font-weight: 800;
   text-align: center;
 }
-
 .UnderlineText .underLine
 {
   position: relative;
   left: 240px;
   display: flex;
   margin: 0%;
-  transform: scale(0.9);
+  width: 410px;
+}
+.bubbly
+{
+  position: absolute;
+  top: 210px;
+  left: 1160px;
 }
 .Container
 {
 position: relative;
 margin-top: 3%;
-width: 1600px;
-height: 1900px;
 display: grid;
-grid-template-rows: repeat(4,1fr);
+grid-template-rows: repeat(3,1fr);
 grid-template-columns: repeat(2,1fr);
-justify-items: center;
+justify-items: start;
 align-items: center;
-gap:50px 50px;
+grid-gap: 50px 50px;
+margin-bottom: 5%;
 }
 .Container div{
   position: relative;
   display: inline-block;
-  width: 410px;
-  height: 400px;
-  background: none;
+  width: 280px;
+  height: 360px;
+  background:none;
+  /* background-color: aqua; */
 }
 .Container div h3{
   position: absolute;
   top:7%;
   left: 5%;
   background: none;
-  font-family: "Playfair Display", serif;
-  font-size: 35px;
+  font-family: 'Inter';
+  font-size: 36px;
   font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  overflow: hidden;
 }
 .Container p{
-  position: absolute;
-  top:20%;
-  left: 5%;
   background: none;
-  font-family: "Playfair Display", serif;
-  font-size: 20px;
-  font-weight: 300;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
 }
 .Container button
 {
   position: absolute;
-  top:80%;
+  top:87%;
   left: 5%;
   padding: 15px;
-  font-family: "Playfair Display", serif;
-  font-size: 20px;
+  font-family: Inter;
+  font-size: 17.55px;
   font-weight: 400;
-  text-align: center;
+  line-height: 20.82px;
   border: 1px solid var(--Dark, rgba(37, 37, 37, 1));
   cursor: pointer;
+  background: none;
+  width: Hug (92.55px)px;
+  height: Hug (33.64px)px;
+  padding: 5.82px 7.27px 5.82px 7.27px;
+  border-radius: 3px 3px 3px 3px;
+}
+button:hover
+{
+  transition: 0.3s;
+  background-color: var(--Dark, rgba(37, 37, 37, 1));
+  color: aliceblue;
 }
 .Container  img{
   margin-top: 5%;
@@ -91,8 +103,8 @@ gap:50px 50px;
   grid-column: 1/2;
   background-color: rgba(68, 201, 91, 0.15);
   border: 1px solid rgba(68, 201, 91, 0.5);
-  width: 760px;
-  height: 410px;
+  width: 630px;
+  height: 380px;
   border-radius: 8px;
 }
 #item2
@@ -101,8 +113,8 @@ gap:50px 50px;
   grid-column: 2/3;
   background-color: rgba(239, 57, 52, 0.15);
   border: 1px solid rgba(239, 57, 52, 0.5);
-  width: 760px;
-  height: 410px;
+  width: 630px;
+  height: 380px;
   border-radius: 8px;
 }
 #item3
@@ -111,8 +123,8 @@ gap:50px 50px;
   grid-column: 1/2;
   background-color: rgba(47, 134, 235, 0.15);
   border: 1px solid rgba(47, 134, 235, 0.5);
-  width: 760px;
-  height: 410px;
+  width: 630px;
+  height: 380px;
   border-radius: 8px;
 }
 #item4
@@ -121,8 +133,8 @@ gap:50px 50px;
   grid-column: 2/3;
   background-color: rgba(255, 180, 0, 0.15);
   border: 1px solid rgba(255, 180, 0, 0.5);
-  width: 760px;
-  height: 410px;
+  width: 630px;
+  height: 380px;
   border-radius: 8px;
 }
 #item5
@@ -131,8 +143,8 @@ gap:50px 50px;
   grid-column: 1/2;
   background-color: rgba(220, 20, 60, 0.15);
   border: 1px solid rgba(220, 20, 60, 0.5);
-  width: 760px;
-  height: 410px;
+  width: 630px;
+  height: 380px;
   border-radius: 8px;
 }
 #item6
@@ -141,27 +153,27 @@ gap:50px 50px;
   grid-column: 2/3;
   background-color: rgba(47, 134, 235, 0.15);
   border: 1px solid rgba(47, 134, 235, 0.5);
-  width: 760px;
-  height: 410px;
+  width: 630px;
+  height: 380px;
   border-radius: 8px;
 }
 #item7
 {
   grid-row: 4/5;
   grid-column: 1/2;
-  background-color: rgba(114, 8, 29, 0.15);
-  border: 1px solid rgba(220, 20, 60, 0.5);
-  width: 760px;
-  height: 410px;
+  background-color: rgba(68, 201, 91, 0.15);
+  border:1px solid rgba(68, 201, 91, 0.5);
+  width: 630px;
+  height: 380px;
   border-radius: 8px;
 }
 #item8
 {
   grid-row: 4/5;
   grid-column: 2/3;
-  background-color: rgba(4, 29, 58, 0.15);
-  border: 1px solid rgba(47, 134, 235, 0.5);
-  width: 760px;
-  height: 410px;
+  background-color: rgba(150, 44, 187, 0.15);
+  border:1px solid rgba(150, 44, 187, 0.5);
+  width: 630px;
+  height: 380px;
   border-radius: 8px;
 }

@@ -1,0 +1,248 @@
+.bodyContainer
+{
+  display: flex;
+  position: relative;
+  height: auto;
+  flex-direction: column;
+  top: 80px;
+  align-items: center;
+}
+h1{
+  text-align: center;
+  font-family: Inter;
+  font-size: 70.65px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+h2{
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.73px;
+  text-align: left;
+  color: var(--Dark, rgba(37, 37, 37, 1));
+}
+.bubbly
+{
+  position: absolute;
+  top: 210px;
+  left: 1180px;
+}
+.UnderlineText .underLine
+{
+  position: relative;
+  top:5px;
+  left: 100px;
+  display: flex;
+  margin: 0%;
+}
+.UnderlineText img{
+  width: 380px;
+  background-image: none;
+}
+.PriText
+{
+  position: relative;
+  left:0px;
+  margin-top: 5%;
+  width: 1285px;
+  margin-bottom: 5%;
+  background-color: aqua;
+}
+.PriText p{
+  text-align: left;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  text-align: left;
+  color: var(--Dark, rgba(37, 37, 37, 1));
+}
+
+@media screen and (max-width: 1460px) {
+  .bubbly
+  {
+    position: absolute;
+    top: 205px;
+    left: 1100px;
+  }
+  h1
+{
+  font-size: 60.65px;
+  font-weight: 800;
+}
+p
+{
+  font-size: 16px;
+}
+.UnderlineText .underLine
+{
+  position: relative;
+  top:2px;
+  left: 80px;
+  display: flex;
+  margin: 0%;
+}
+.UnderlineText img{
+  width: 330px;
+  background-image: none;
+}
+.PriText
+{
+  width: 1210px;
+}
+.PriText h2
+{
+
+  font-size: 29px;
+  line-height: 35.73px;
+  margin-left: 0px;
+}
+.PriText p
+{
+  font-size: 16px;
+  text-align: justify;
+}
+}
+@media screen and (max-width: 1360px) {
+.bubbly
+  {
+    position: absolute;
+    top: 205px;
+    left: 870px;
+  }
+.bodyContainer h1
+{
+  font-size: 60.65px;
+  font-weight: 800;
+}
+p
+{
+  font-size: 16px;
+}
+.UnderlineText .underLine
+{
+  position: relative;
+  top:2px;
+  left: 100px;
+  display: flex;
+  margin: 0%;
+}
+.UnderlineText img{
+  width: 370px;
+  background-image: none;
+}
+.PriText
+{
+  width: 920px;
+}
+.PriText h2
+{
+
+  font-size: 29px;
+  line-height: 35.73px;
+  margin-left: 0px;
+}
+.PriText p
+{
+  font-size: 16px;
+  text-align: justify;
+}
+}
+@media screen and (max-width: 870px) {
+  .bubbly
+  {
+    position: absolute;
+    top: 110px;
+    left: 680px;
+    transform: scale(0.5);
+  }
+.bodyContainer h1 
+{
+  font-size: 40.65px;
+  font-weight: 800;
+  font-family: Inter;
+  line-height: 35.5px;
+}
+p
+{
+  font-size: 14px;
+}
+.UnderlineText .underLine
+{
+  position: relative;
+  top:2px;
+  left: 50px;
+  display: flex;
+  margin: 0%;
+}
+.UnderlineText img{
+  width: 230px;
+  background-image: none;
+}
+.PriText
+{
+  width: 670px;
+}
+.PriText h2
+{
+
+  font-size: 25px;
+  line-height: 35.73px;
+  margin-left: 0px;
+}
+.PriText p
+{
+  font-size: 14px;
+  text-align: justify;
+}
+}
+@media screen and (max-width: 357px) {
+  .bubbly
+  {
+    position: absolute;
+    top: 90px;
+    left: 196px;
+    transform: scale(0.3);
+  }
+.bodyContainer h1 
+{
+  font-size: 20.65px;
+  font-weight: 800;
+  font-family: Inter;
+  line-height: 17.5px;
+}
+p
+{
+  font-size: 8px;
+}
+.UnderlineText .underLine
+{
+  position: relative;
+  top:2px;
+  left: 30px;
+  display: flex;
+  margin: 0%;
+}
+.UnderlineText img{
+  width: 110px;
+  background-image: none;
+}
+.PriText
+{
+  width: 260px;
+}
+.PriText h2
+{
+
+  font-size: 13px;
+  line-height: 25.73px;
+  margin-left: 0px;
+}
+.PriText p
+{
+  font-size: 12px;
+  text-align: justify;
+  line-height: 15px;
+}
+}
