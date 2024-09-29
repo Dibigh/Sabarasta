@@ -7,21 +7,11 @@
   top: 80px;
   align-items: center;
 }
-<<<<<<< HEAD
-=======
- #starDoodle
-{
-  position: relative;
-  right: 140px;
-  transform: scale(0.8);
-}
->>>>>>> origin/dibigh
 h1{
   text-align: center;
   font-family: Inter;
   font-size: 70.65px;
   font-weight: 800;
-<<<<<<< HEAD
   margin-bottom: 20px;
 }
 h2{
@@ -48,27 +38,10 @@ h2{
 }
 .UnderlineText img{
   width: 380px;
-=======
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.UnderlineText .underLine
-{
-  position: relative;
-  left: 30px;
-  display: flex;
-  margin: 0%;
-  transform: scale(0.8);
-}
-.UnderlineText img{
-  width: 450px;
->>>>>>> origin/dibigh
   background-image: none;
 }
 .PriText
 {
-<<<<<<< HEAD
   position: relative;
   left:0px;
   margin-top: 5%;
@@ -78,16 +51,6 @@ h2{
 }
 .PriText p{
   text-align: left;
-=======
-  margin-top: 5%;
-  box-sizing: border-box;
-  height: auto;
-  width: 1285px;
-  margin-bottom: 5%;
-}
-.PriText p{
-    text-align: justify;
->>>>>>> origin/dibigh
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
@@ -95,7 +58,6 @@ h2{
   text-align: left;
   color: var(--Dark, rgba(37, 37, 37, 1));
 }
-<<<<<<< HEAD
 
 @media screen and (max-width: 1460px) {
   .bubbly
@@ -283,11 +245,4 @@ p
   text-align: justify;
   line-height: 15px;
 }
-=======
-ul{
-    list-style-position: inside;
-}
-li{
-    margin-left: 10px;
->>>>>>> origin/dibigh
 }
