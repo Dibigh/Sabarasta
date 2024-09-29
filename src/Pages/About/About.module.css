@@ -20,8 +20,13 @@ text-align: center;
 .bubbly
 {
   position: absolute;
+<<<<<<< HEAD
   top: 230px;
   left: 1270px;
+=======
+  top: 180px;
+  left: 1250px;
+>>>>>>> origin/dibigh
 }
 h1{
   text-align: center;

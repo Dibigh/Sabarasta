@@ -4,7 +4,11 @@ import { useNavigate } from 'react-router-dom';
 import star from '../../Logo/star.svg';
 import greenLine from '../../Logo/greenline.svg';
 import styles from './TermsOfUse.module.css';
+<<<<<<< HEAD
 import bubbles from '../../Logo/Bubbles.svg';
+=======
+import bubbles from '../../Logo/Bubbles.svg'
+>>>>>>> origin/dibigh
 
 export default function PrivacyPolicy() {
   return (
