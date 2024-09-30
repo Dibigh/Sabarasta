@@ -3,20 +3,12 @@ import { Link } from 'react-router-dom';
 import './Footer.css'
 import logo1 from '../../Logo/FooterLogo.svg'
 import icons from '../../Photos/Frame.png'
-<<<<<<< HEAD
 import {ReactComponent as SVG} from '../../Logo/company show photo.svg' 
-=======
-import Group from '../../Logo/company show photo.svg'
->>>>>>> origin/dibigh
 function Footer() {
   return (
     <div id='footer'>
       <div id = 'FooterPic'>
-<<<<<<< HEAD
         <SVG id='Pic' viewBox='0 0 1200 600'/>
-=======
-        <img id = 'Pic' src={Group}></img>
->>>>>>> origin/dibigh
       </div>
       <div id='SearchBar'>
         <p>Subscribe to <span>Our NewsLetter</span></p>

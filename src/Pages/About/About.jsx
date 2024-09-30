@@ -21,11 +21,7 @@ function About() {
           <h1>Tomorrow's <span className={styles.UnderlineText}>Successes.<img className={styles.underLine} src={redLine} alt='GreenLine'/></span></h1>
         <p>Get to know us behind the vision and the values that drive our commitment to excellence every day.</p><img src={bubbles} className={styles.bubbly}></img>
         <div className={styles.Container}>
-<<<<<<< HEAD
           <p>We are <span>product tinkerers,</span></p>
-=======
-          <p>We are <span>product tinkers,</span></p>
->>>>>>> origin/dibigh
           <br></br>
           <br></br>
           <p>Since inception, things have changed quite a bit.</p>

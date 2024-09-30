@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import star from '../../Logo/star.svg';
-import greenLine from '../../Logo/greenline.svg';
+import greenLine from '../../Logo/blueLine.svg';
 import styles from './Products.module.css';
 import bubbles from '../../Logo/Bubbles.svg'
 

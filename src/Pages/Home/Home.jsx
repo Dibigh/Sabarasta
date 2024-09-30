@@ -7,16 +7,10 @@ import curveLine from '../../Logo/Plane Doodle.svg'
 import greenLine from '../../Logo/green.svg'
 import ThreeDots from '../../Logo/3dots.svg'
 import HomePic1 from '../../Logo/HomePic1.svg';
-<<<<<<< HEAD
 import HomePic2 from '../../Logo/HomePic2.svg';
 // import Slider1 from "../../components/Slider1/Slider1";
 import bubbles from '../../Logo/Bubbles.svg';
 import {useState,useEffect,useRef} from 'react';
-=======
-import HomePic2 from '../../Logo/HomePic2.svg'
-import Slider1 from "../../components/Slider1/Slider1";
-import bubbles from '../../Logo/Bubbles.svg'
->>>>>>> origin/dibigh
 function Home() {
 const[Symbol1,ChangeSymbol1]=useState('+');
 const[Symbol2,ChangeSymbol2]=useState('+');
@@ -55,12 +49,7 @@ const[Symbol3,ChangeSymbol3]=useState('+');
   function buttonPressed()
   {
     console.log('button pressed');
-<<<<<<< HEAD
     // navigate('/ContactUs')
-=======
-    navigate('/ContactUs')
-  
->>>>>>> origin/dibigh
   }
   return (
     <>
@@ -105,19 +94,11 @@ const[Symbol3,ChangeSymbol3]=useState('+');
            <button id={styles.ExploreB}>Explore Our Work</button>
           {/* <div className={styles.greenContainer}><div className={styles.ImgDiv}><img src={HomePic1}></img></div></div>
           <div className={styles.blueContainer}><div className={styles.ImgDiv}><img src={HomePic2}></img></div></div> */}
-<<<<<<< HEAD
         </div>
         {/* <div className={styles.Slider_Div}>
           <Slider1/>
         </div> */}
            <div className={styles.clientsDiv}>
-=======
-        </div>
-        <div className={styles.Slider_Div}>
-          <Slider1/>
-        </div>
-         <div className={styles.clientsDiv}>
->>>>>>> origin/dibigh
            <p><center>Our <span>Clients Adore Us</span></center></p>
            <div id = {styles.inlineContain}>
            <div className={styles.orangeContainer}></div>

@@ -32,7 +32,6 @@ function ContactUs() {
   //     setResult(data.message);
     // }
   // };
-<<<<<<< HEAD
    const [submittedData, setSubmittedData] = useState(null);
   const [formData, setFormData] = useState({
     name: '',
@@ -98,45 +97,10 @@ function ContactUs() {
                  <option value="Awards" >Awards</option>
                  <option value="Social Media" >Social Media</option>
                  <option value="Recommended by friends">Recommended by friends</option>
-=======
-  return (
-    <>
-     <form className={styles.bodyContainer} onSubmit={onSubmit}>
-        <h1>Connect With Us: Let's Start a</h1>
-          <h1>Conversation.<span className={styles.UnderlineText}><img className={styles.underLine} src={greenLine} alt='GreenLine'/></span></h1>
-        <p>We're here to listen, collaborate, and help you achieve your goals. Reach out today to get started.</p><img src={bubbles} className={styles.bubbly}></img>
-        <div className={styles.DropDown}>
-          <div className={styles.row}>
-            <div className = {styles.column1}><input type='text' placeholder='Enter your name *' name="name"></input></div>
-            <div className = {styles.column1}><input type='text' placeholder='Enter your phone number *' name='phonenumber'></input></div>
-            </div>
-            <div className={styles.row}>
-            <div className = {styles.column1}><input type='text' placeholder='Enter your Email ID *' name='email'></input></div>
-            <div className = {styles.column1}><input type='text' placeholder='Select your budget in USD *' name='budget'></input></div>
-          </div>
-           <div className={styles.row}>
-              <div className = {styles.column1}>
-              <select className={styles.DropMenu} >
-                 <option value="Option1">When do you want to start *</option>
-                 <option value="option2">Start in a month</option>
-                 <option value="option3">Engage immediately</option>
-                 <option value="option4">start in a week</option>
-              </select>
-              </div>
-               <div className = {styles.column1}>
-              <select className={styles.DropMenu} >
-                 <option value="option1" >Referral</option>
-                 <option value="option2" >Google/Search</option>
-                 <option value="option3" >Clutch</option>
-                 <option value="option4" >Awards</option>
-                 <option value="option5" >Social Media</option>
-                 <option value="option6" >Dribble/ Behance</option>
->>>>>>> origin/dibigh
               </select>
               </div>
           </div>
               <div className={styles.row}>
-<<<<<<< HEAD
               <div id = {styles.ColumnBig}><textarea type='text' placeholder="About your Project *" className={styles.inputF} name='message' rows='200' onChange={handleChange}></textarea><div className={styles.Placeholder}></div><center><p>By proceeding, you are agreeing to Sabrasta’s privacy policy & communication</p></center></div>
           </div>
         </div>
@@ -153,13 +117,6 @@ function ContactUs() {
           <p><strong>info</strong> {submittedData.info}</p>
         </div>
       )}
-=======
-              <div id = {styles.ColumnBig}><input type='text' className={styles.inputF} name='message'></input><div className={styles.Placeholder}>About your Project *</div><center><p>By proceeding, you are agreeing to Sabrasta’s privacy policy & communication</p></center></div>
-          </div>
-        </div>
-        <button type= "submit" className={styles.sendEnquiry} onClick={()=>{console.log('button pressed')}}>Send Enquiry</button>
-        </form>
->>>>>>> origin/dibigh
     </>
   )
 }

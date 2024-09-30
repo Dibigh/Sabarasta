@@ -1,6 +1,6 @@
 .bodyContainer
 {
-    position: relative;
+  position: relative;
   top: 80px;
   display: flex;
   height: auto;
@@ -20,13 +20,8 @@ text-align: center;
 .bubbly
 {
   position: absolute;
-<<<<<<< HEAD
-  top: 230px;
+  top: 210px;
   left: 1270px;
-=======
-  top: 180px;
-  left: 1250px;
->>>>>>> origin/dibigh
 }
 h1{
   text-align: center;
