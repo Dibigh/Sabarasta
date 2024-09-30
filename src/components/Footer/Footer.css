@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 #FooterPic
 {
@@ -12,12 +12,10 @@
     left: 110px;
     height:655px;
     width: 1310px;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    margin-bottom: 80px;
 }
 #Pic 
 {
-    margin-left: 0px;
     max-width: 1300px;
     max-height: 620px;
     width: 1295px;
@@ -47,7 +45,7 @@
 {
     display: flex;
     align-self: center;
-    margin-bottom: 3%;
+
 }
 #SearchBar input
 {
@@ -121,12 +119,9 @@ img#framelogo1 {
 }
 #content{
     display: flex;
-   flex: 1;
-    /*justify-content: center;
-   /* margin-left: -27%;*/
+    flex: 1;
     background-color: rgba(11, 11, 11, 1);
     margin-top: 30px;
-    gap: 9%;
     width: 90%;
 }
 
@@ -135,7 +130,7 @@ img#framelogo1 {
     flex: 1;
     color: rgba(255, 255, 255, 1);
     background-color: rgba(11, 11, 11, 1);
-   justify-content: space-evenly;
+    justify-content: space-evenly;
 }
 
 #separatingline{
@@ -145,81 +140,109 @@ img#framelogo1 {
     opacity:30%;
     background-color: rgba(224, 237, 255, 0.6);
 }
-#copyright{
+#CopyRights{
     width: 317px;
     height: 60px;
-  
+    background: none;
 }
-#copyright>p{
+#CopyRights p{
     width: 100%;
     height: 100%;
     color: rgba(246, 245, 244, 0.7);
     background-color: rgba(11, 11, 11, 1);
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;
 }
-div#services {
+#services {
+    margin-top: 20px;
+    background-color: rgba(11, 11, 11, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+}
+#services p
+{
+    background-color: rgba(11, 11, 11, 1);
+}
+#products {
+    margin-top: 20px;
+    background-color: rgba(11, 11, 11, 1);
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 150px;
+}
+#products p
+{
     background-color: rgba(11, 11, 11, 1);
 }
-div#products {
+#industries {
+    margin-top: 20px;
+     background-color: rgba(11, 11, 11, 1);
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
     gap: 10px;
-    width: 125px;
+    width: 150px;
 }
-div#industries {
+#industries p{
+    background-color: rgba(11, 11, 11, 1);
+}
+#company {
+    margin-top: 20px;
+     background-color: rgba(11, 11, 11, 1);
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
     gap: 10px;
-    width: 125px;
+    width: 150px;
 }
-div#company {
-    display: flex;
-    /* align-items: center; */
-    flex-direction: column;
-    gap: 10px;
-    width: 125px;
-}
-#footermenu>div>div>p{
+#company p
+{
     background-color: rgba(11, 11, 11, 1);
 }
-#footermenu>div>div>h3{
-    background-color: rgba(11, 11, 11, 1);
+#footermenu h3{
+    background: none;
 }
-#footermenu>div>div>{
-    background-color: rgba(11, 11, 11, 1);
-}
-#footermenu>div{
-    background-color: rgba(11, 11, 11, 1);
-    flex-shrink: 0;
-}
-
-@media screen and (max-width:1420px) {
+@media screen and (max-width:1500px) 
+{
     #FooterPic
     {
-    height:710px;
-    width: 126px;
+    overflow: hidden;
+    position: relative;
+    left: 112px;
+    height:620px;
+    width: 1210px;
     margin-bottom: 5%;
     margin-top: 5%;
     }
-   
     #Pic 
     {
-    position: relative;
-    top:10px;
-    left: 120px;
     width: 100%;
     height: 100%;
-    object-fit: contain;
-    background: none;
+    background: transparent;
     } 
+    #SearchBar{
+    margin-bottom: 5%;
+    }
+
+#SearchBar p{
+    font-size: 45px;
+}
+#SearchBar span{
+    font-size: 45px;
+}
+#SearchBar input
+{
+width: 980px;
+height: 55px;
+}
+#SearchBar button
+{
+    width: 191px;
+    height: 56px;
+    font-size: 16px;
+}
     #footer
     {
         font-size: 13px;
@@ -232,8 +255,8 @@ div#company {
     }
     img#framelogo1 
     {
-        width: 25px;
-        height: 25px;
+        width: 170px;
+        height: 60px;
         object-fit: contain;
     }
 #icons {
@@ -241,78 +264,277 @@ div#company {
     width: 100%;
     object-fit: contain;
 }
-#footermenu>div {
-    width: 95px;
-}
 #frame{
-    width: 122px;
-}
-#lines{
-    height: 30px;
-    gap: 1px;
+    margin-left: 120px;
+    width: 260px;
 }
 }
-@media screen and (max-width:890px) {
-    #footer{
-        font-size: 13px;
-    }
-    #content{
-        gap:10px;
-        width: 100%;
-        padding: 0px 5px;
-    }
-    img#framelogo1 {
-        width: 25px;
-        height: 25px;
-        object-fit: contain;
-    }
-    
-#icons {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+@media screen and (max-width:1024px) {
+    #FooterPic
+{
+    position: relative;
+    left: 50px;
+    height:420px;
+    width: 922px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: aqua;
 }
-#footermenu>div {
-    width: 95px;
-}
-#frame{
-    width: 122px;
-}
-#lines{
-    height: 30px;
-    gap: 1px;
-}
-}
-@media screen and (max-width:575px) {
-    #footer{
-        font-size: 11px;
-    }
-    #frame{
-        margin-left: 0%;
-        width: 97px;
-    }
-    #footermenu{
-        margin-top: 9px;
-    }
-    #footermenu>div {
-        width: 65px;
-    }
+ #FooterPic img
+ {
+    height: fit-content;
+ }
 
+ #frameicon
+{
+    width: 130px;
 }
+   #SearchBar p{
+    font-size: 35px;
+}
+#SearchBar span{
+    font-size: 35px;
+}
+#SearchBar input
+{
+width: 700px;
+height: 55px;
+font-size: 16px;
+}
+#SearchBar button
+{
+    width: 191px;
+    height: 56px;
+    font-size: 16px;
+}
+#framelogo img
+{
+    width: 150px;
+}
+#frame
+    {
+        margin-left: 60px;
+    }
+#footercontent p
+    {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:850px) {
+        #FooterPic
+{
+    position: relative;
+    left: 50px;
+    height:320px;
+    width: 660px;
+    margin-bottom: 5%;
+    background-color: aqua;
+}
+ #FooterPic img
+ {
+    height: fit-content;
+ }
+ #SearchBar p{
+    font-size: 30px;
+}
+#SearchBar span{
+    font-size: 30px;
+}
+#SearchBar input
+{
+width: 455px;
+height: 45px;
+font-size: 16px;
+}
+#SearchBar button
+{
+    width: 170px;
+    height: 47px;
+    font-size: 16px;
+}
+#framelogo img
+{
+    width: 120px;
+}
+#frameicon
+{
+    width: 150px;
+}
+#frame
+    {
+        margin-left: 50px;
+        width: 240px;
+    }
+#footercontent p
+    {
+        font-size: 12px;
+    }
+    #services
+    {
+        width: 120px;
+    }
+    #products
+    {
+        width: 120px;
+    }
+    #industries
+    {
+        width: 120px;
+    }
+}
+
 @media screen and (max-width:450px) {
-    #footer{
-        font-size: 9px;
-    } 
-    #frame{
-        width: 82px;
+#FooterPic
+{
+    margin-top: 60px;
+    position: relative;
+    left:40px;
+    height:170px;
+    width: 350px;
+    margin-bottom: 40px;
+    background-color: aqua;
+}
+ #FooterPic img
+ {
+    height: fit-content;
+ }
+   #SearchBar p{
+    font-size: 20px;
+}
+#SearchBar span{
+    font-size: 20px;
+}
+#SearchBar input
+{
+width: 230px;
+height: 30px;
+font-size: 12px;
+}
+#SearchBar button
+{
+    width: 85px;
+    height: 32px;
+    font-size: 12px;
+}
+#frame{
+margin-left: 40px;
+width: 100%;
+}
+#framelogo img{
+    width: 140px;
+}
+
+#content p{
+     font-size: 16px;
+}
+#frameicon{
+    width: 180px;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(11, 11, 11, 1);
+    margin-top: 30px;
+    width: 100%;
+}
+#content h3
+{
+    font-size: 30px;
+}
+#footermenu{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(11, 11, 11, 1);
+    justify-content: space-evenly;
+}
+#services
+{
+    width: 100%;
+}
+#products
+{
+    width: 100%;
+}
+#company
+{
+    width: 100%;
+}
+#industries
+{
+    width: 100%;
+}#frametext
+{
+    width: 270px;
+}
+}
+@media screen and (max-width:380px) {
+#FooterPic
+{
+    position: relative;
+    left:33px;
+    height:145px;
+    width: 306px;
+    background-color: aqua;
+}
+ #FooterPic img
+ {
+    height: fit-content;
+ }
+     #SearchBar p{
+    font-size: 14px;
+}
+#SearchBar span{
+    font-size: 14px;
+}
+#SearchBar input
+{
+width: 160px;
+height: 20px;
+font-size: 10px;
+padding-left: 10px;
+}
+#SearchBar button
+{
+    width: 60px;
+    height: 22px;
+    font-size: 8px;
+}
+#frametext
+{
+    width: 250px;
+}
+#frame
+    {
+        margin-left: 30px;
+        width: 240px;
     }
-    img#framelogo2 {
-        width: 43px;
-        height: 31px;
+    #footermenu
+    {
+        margin-left: 30px;
     }
-    img#framelogo1 {
-        width: 20px;
-        height: 20px;
+}
+@media screen and (max-width:350px) {
+#FooterPic
+{
+    position: relative;
+    left:30px;
+    height:120px;
+    width: 260px;
+    background-color: aqua;
+}
+ #FooterPic img
+ {
+    height: fit-content;
+ }
+#frame
+    {
+        margin-left: 30px;
+        width: 240px;
     }
- 
+    #footermenu
+    {
+        margin-left: 30px;
+    }
 }

@@ -47,7 +47,6 @@ h2{
   margin-top: 5%;
   width: 1285px;
   margin-bottom: 5%;
-  background-color: aqua;
 }
 .PriText p{
   text-align: left;
@@ -135,6 +134,7 @@ p
 .PriText
 {
   width: 920px;
+  margin-bottom: 5%;
 }
 .PriText h2
 {
@@ -149,7 +149,7 @@ p
   text-align: justify;
 }
 }
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 850px) {
   .bubbly
   {
     position: absolute;
@@ -171,7 +171,6 @@ p
 .UnderlineText .underLine
 {
   position: relative;
-  top:2px;
   left: 50px;
   display: flex;
   margin: 0%;
@@ -183,6 +182,7 @@ p
 .PriText
 {
   width: 670px;
+  margin-bottom: 5%;
 }
 .PriText h2
 {
@@ -197,24 +197,24 @@ p
   text-align: justify;
 }
 }
-@media screen and (max-width: 357px) {
+@media screen and (max-width: 450px) {
   .bubbly
   {
     position: absolute;
-    top: 90px;
-    left: 196px;
-    transform: scale(0.3);
+    top:100px;
+    left: 260px;
+    transform: scale(0.4);
   }
 .bodyContainer h1 
 {
   font-size: 20.65px;
   font-weight: 800;
   font-family: Inter;
-  line-height: 17.5px;
+  line-height: 24.5px;
 }
-p
+.bodyContainer p
 {
-  font-size: 8px;
+  font-size: 9px;
 }
 .UnderlineText .underLine
 {
@@ -230,19 +230,92 @@ p
 }
 .PriText
 {
-  width: 260px;
+  width: 340px;
+  margin-bottom: 2%;
 }
 .PriText h2
 {
 
   font-size: 13px;
-  line-height: 25.73px;
-  margin-left: 0px;
+  line-height: 20.73px;
 }
 .PriText p
 {
-  font-size: 12px;
+  font-size: 10px;
   text-align: justify;
   line-height: 15px;
+}
+}
+@media screen and (max-width:390px) {
+  .bubbly
+  {
+    position: absolute;
+    top:95px;
+    left: 245px;
+    transform: scale(0.4);
+  }
+.bodyContainer h1 
+{
+  font-size: 18.65px;
+  font-weight: 800;
+  font-family: Inter;
+  line-height: 22.5px;
+}
+.bodyContainer p
+{
+  font-size: 8px;
+}
+.UnderlineText .underLine
+{
+  position: relative;
+  top:2px;
+  left: 20px;
+  display: flex;
+  margin: 0%;
+}
+.UnderlineText img{
+  width: 120px;
+  background-image: none;
+}
+.PriText
+{
+  width: 310px;
+  margin-bottom: 2%;
+}
+.PriText h2
+{
+
+  font-size: 13px;
+  line-height: 20.73px;
+}
+.PriText p
+{
+  font-size: 10px;
+  text-align: justify;
+  line-height: 15px;
+}
+}
+@media screen and (max-width:340px) {
+  .bubbly
+  {
+    position: absolute;
+    top:93px;
+    left: 215px;
+    transform: scale(0.4);
+  }
+.bodyContainer p
+{
+  font-size: 7.5px;
+}
+.PriText
+{
+  width: 250px;
+  margin-bottom: 2%;
+}
+.PriText p
+{
+  font-size: 9px;
+  text-align: justify;
+  line-height: 14px;
 }
 }

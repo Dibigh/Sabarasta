@@ -160,22 +160,23 @@ header nav
 {
   position:absolute;
   top:20px;
-  right:20px;
+  right:50px;
 }
 .hamburger_icon
 {
   background-color: transparent;
 }
 }
-@media screen and (max-width:575px) {
+@media screen and (max-width:450px) {
 
   #logo {
+    position:absolute;
     width: 88px;
-    margin-left: 5px;
+    left: 40px;
 }
   #contact {
     width: 71px;
-    height: 30px;
+    height: 25px;
     font-weight: 500;
     font-size: 12px;
 }
@@ -200,28 +201,36 @@ header nav
 }
 .nav-btn
 {
+ position: relative;
+ right: 30px;
  display: block;
  background-color: transparent;
  border: none;
- 
+}
+.nav_close
+{
+  position:relative;
+  top:-455px;
+  left:165px;
 }
 }
-@media screen and (max-width:450px) {
-  ul {
-    gap: 6px;
-}
+@media screen and (max-width:390px) {
 #logo {
+  position: absolute;
+  left:45px;
   width: 71px;
   margin-top: 4.9px;
-}
-.navText {
-  font-size: 10px;
+  transform: scale(1.4);
 }
 #contact {
-  width: 55px;
-  height: 27px;
+
+  position: absolute;
+  right: 90px;
+  margin-top: 5px;
+  width: 50px;
+  height: 25px;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 8px;
   border: 1px solid black;
 }
 header nav
@@ -234,12 +243,36 @@ header nav
   transition: 1s;
   transform: translateY(-100vh);
 }
- .responsive_nav
+.nav-btn
 {
-  transform: none;
+  position: relative;
+  display: block;
+  right:30px;
+  }
+    .nav_close
+{
+  position:relative;
+  top:-455px;
+  left:145px;
+}
+}
+@media screen and (max-width:350px) {
+  #logo {
+  position: absolute;
+  left: 35px;
+  width: 71px;
+  margin-top: 4.9px;
+  transform: scale(1.2);
 }
 .nav-btn
 {
- display: block;
+  position: relative;
+  right:25px;
+  }
+  .nav_close
+{
+  position:relative;
+  top:-455px;
+  left:120px;
 }
 }
