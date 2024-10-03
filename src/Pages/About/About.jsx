@@ -23,18 +23,13 @@ function About() {
         <div className={styles.Container}>
           <p>We are <span>product tinkerers,</span></p>
           <br></br>
-          <br></br>
           <p>Since inception, things have changed quite a bit.</p>
-          <br></br>
           <br></br>
           <p>We feel proud to have worked with numbers of early-stage founders to build their products and some have raised 1000s in funding after they worked with us (we can't promise millions in funding, but a kickass product - we sure do!).</p>
           <br></br>
-          <br></br>
           <p>We obsess over giving you the best team to build your products.</p>
           <br></br>
-          <br></br>
           <p>We believe we are your partners. Not contractors.</p>
-          <br></br>
           <br></br>
           <p>And we will never shy away from our mission. The mission to become the most founder-centric agency ever.</p>
         </div>

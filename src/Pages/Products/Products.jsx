@@ -12,8 +12,9 @@ function Products() {
         <h1>Discover Our Products:</h1>
           <h1>Solutions for <span className={styles.UnderlineText}>Every Need.<img className={styles.underLine} src={greenLine} alt='GreenLine'/></span></h1>
         <p>Explore our range of innovative products designed to empower your success. </p><img src={bubbles} className={styles.bubbly}></img>
-        <div className = {styles.Container}></div>
+        <div className = {styles.Container}>
          <div id={styles.GridDiv1}>Coming Soon</div>
+        </div>
         </div>
     </>
   )

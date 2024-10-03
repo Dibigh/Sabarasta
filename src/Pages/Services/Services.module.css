@@ -5,6 +5,7 @@
   height: auto;
   flex-direction: column;
   top: 80px;
+  margin-bottom: 120px;
   align-items: center;
 }
 h1{
@@ -31,9 +32,10 @@ h1{
 .Container
 {
 position: relative;
-margin-top: 3%;
+margin-top: 120px;
+margin-left: 10px;
 display: grid;
-grid-template-rows: repeat(3,1fr);
+grid-template-rows: repeat(4,1fr);
 grid-template-columns: repeat(2,1fr);
 justify-items: start;
 align-items: center;
@@ -61,6 +63,7 @@ margin-bottom: 5%;
   overflow: hidden;
 }
 .Container p{
+  position: absolute;
   background: none;
   font-family: Inter;
   font-size: 16px;
@@ -176,4 +179,604 @@ button:hover
   width: 630px;
   height: 380px;
   border-radius: 8px;
+}
+@media screen and (max-width:1024px) 
+{
+ .bodyContainer
+  {
+  max-width: 1024px;
+  left: 50%;
+  transform: translateX(-50%);
+  }  
+.bodyContainer h1
+  {
+  font-size: 50.65px;
+  line-height: 55.5px;;
+  }
+.bubbly
+{
+  top: 170px;
+  left: 880px;
+}
+.UnderlineText .underLine
+{
+  left: 120px;
+  transform: scale(0.7);
+}
+.Container
+{
+grid-template-rows: repeat(4,1fr);
+grid-template-columns:25px repeat(2,1fr) 25px;
+width: 976px;
+align-items: self-start;
+margin-left: -5px;
+margin-top: 80px;
+grid-gap:15px;
+margin-right: 17px;
+}
+.Container div{
+  width: 210px;
+  height: 375px;
+  background:none;
+}
+.Container div h3{
+  top:3%;
+  left: 5%;
+  background: none;
+  font-size: 25px;
+  line-height: 30px;
+}
+.Container div p{
+  top:10%;
+  left: 5%;
+  background: none;
+  font-size: 14px;
+  line-height: 20px;
+
+}
+.Container button
+{
+  top:86%;
+  left: 5%;
+  padding: 10px;
+  font-size: 13.55px;
+  line-height: 18.82px;
+  background: none;
+  width: Hug (80.55px)px;
+  height: Hug (10.64px)px;
+}
+.Container  img{
+  margin-top: 3%;
+  margin-left:3% ;
+  float: left;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 6px;
+  width: 200px;
+}
+#item1
+{
+  grid-column: 2/3;
+  width: 450px;
+  height: 380px;
+}
+#item2
+{
+grid-column: 3/4;
+width: 450px;
+height: 380px;
+}
+#item3
+{
+  grid-column: 2/3;
+  width: 450px;
+  height: 380px;
+}
+#item4
+{
+grid-column: 3/4;
+  width: 450px;
+  height: 380px;
+}
+#item5
+{
+grid-column: 2/3;
+  width: 450px;
+  height: 380px;
+}
+#item6
+{
+  grid-column: 3/4;
+  width: 450px;
+  height: 380px;
+}
+#item7
+{
+grid-column: 2/3;
+  width: 450px;
+  height: 380px;
+}
+#item8
+{
+ grid-column: 3/4;
+  width: 450px;
+  height: 380px;
+}
+
+}
+ @media screen and (max-width:1022px) 
+{
+ .bodyContainer
+  {
+  max-width: 960px;
+  }  
+.bodyContainer h1
+  {
+  font-size: 40.65px;
+  line-height: 45.5px;;
+  }
+.bubbly
+{
+  top: 145px;
+  left: 670px;
+  transform: scale(0.8);
+}
+.UnderlineText .underLine
+{
+  left: 70px;
+  transform: scale(0.55);
+}
+.Container
+{
+display: grid;
+justify-content: start;
+max-width: 768px;  
+grid-template-rows: repeat(4,1fr);
+grid-template-columns:40px repeat(2,1fr) 40px;
+margin-left: 0px;
+align-items: self-start;;
+margin-bottom: 80px;
+grid-gap:12px 10px;
+margin-right: 0px;
+}
+.Container div{
+  width: 280px;
+  height: 400px;
+}
+.Container div h3{
+  top:10%;
+  left: 16%;
+  font-size: 25px;
+  line-height: 30px;
+}
+.Container p{
+  top:10%;
+  padding-left: 30px;
+  font-size: 14px;
+  line-height: 20px;
+
+}
+.Container button
+{
+  top:80%;
+  left: 16%;
+  padding: 10px;
+  font-size: 13.55px;
+  line-height: 18.82px;
+  width: Hug (80.55px)px;
+  height: Hug (10.64px)px;
+}
+.Container  img{
+  margin-top: 19%;
+  margin-left:19%;
+  height: 200px;
+  width: 455px;
+  transform: scale(1.2);
+  width: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  width: 200px;
+}
+#item1
+{
+  width: 324px;
+  height: 365px;
+}
+#item2
+{
+width: 324px;
+height: 365px;
+}
+#item3
+{
+  width: 324px;
+  height: 365px;
+}
+#item4
+{
+  width: 324px;
+  height: 365px;
+}
+#item5
+{
+  width: 324px;
+  height: 365px;
+}
+#item6
+{
+  width: 324px;
+  height: 365px;
+}
+#item7
+{
+  width: 324px;
+  height: 365px;
+}
+#item8
+{
+  width: 324px;
+  height: 365px;
+}
+
+} 
+ @media screen and (max-width:766px) 
+{
+ .bodyContainer
+  {
+  max-width: 576px;
+  }  
+.bodyContainer h1
+  {
+  font-size: 24.65px;
+  line-height: 25.5px;
+ }
+  .bodyContainer p 
+  {
+  font-size: 9.5px;
+  line-height: 20.5px;;
+  }
+.bubbly
+{
+  top: 103px;
+  left: 398px;
+  transform: scale(0.35);
+}
+.UnderlineText .underLine
+{
+  left: 90px;
+  transform: scale(0.35);
+}
+.Container
+{
+display: grid;
+max-width: 425px;  
+grid-template-rows: repeat(8,1fr);
+grid-template-columns:37px 1fr 35px;
+grid-gap:20px 0px;
+margin-bottom: 0px;
+}
+.Container div{
+  width: 295px;
+  height: 400px;
+}
+.Container div h3{
+  top:10%;
+  left: 18%;
+  font-size: 25px;
+  line-height: 30px;
+}
+.Container p{
+  top:20%;
+  padding-left: 35px;
+  font-size: 14px;
+  line-height: 20px;
+
+}
+.Container button
+{
+  top:75%;
+  left: 17%;
+  padding: 10px;
+  font-size: 13.55px;
+  line-height: 18.82px;
+  width: Hug (80.55px)px;
+  height: Hug (10.64px)px;
+}
+.Container  img{
+  margin-top: 21%;
+  margin-left:21%;
+  height: 230px;
+  width: 475px;
+  transform: scale(1.2);
+  width: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  width: 200px;
+}
+#item1
+{
+  grid-row: 1/2;
+  grid-column: 2/3;
+  width: 350px;
+  height: 405px;
+}
+#item2
+{
+  grid-row: 2/3;
+  grid-column: 2/3;
+  width: 350px;
+  height: 405px;
+}
+#item3
+{
+  grid-row: 3/4;
+  grid-column: 2/3;
+  width: 350px;
+  height: 405px;
+}
+#item4
+{
+  grid-row: 4/5;
+  grid-column: 2/3;
+  width: 350px;
+  height: 405px;
+}
+#item5
+{
+  grid-row: 5/6;
+  grid-column: 2/3;
+  width: 350px;
+  height: 405px;
+}
+#item6
+{
+  grid-row: 6/7;
+  grid-column: 2/3;
+  width: 350px;
+  height: 405px;
+}
+#item7
+{
+  grid-row: 7/8;
+  grid-column: 2/3;
+  width: 350px;
+  height: 405px;
+}
+#item8
+{
+  grid-row: 8/9;
+  grid-column: 2/3;
+  width: 350px;
+  height: 405px;
+}
+
+} 
+@media screen and (max-width:420px) {
+ 
+ .bodyContainer
+  {
+  max-width: 375px;
+  }  
+.bodyContainer h1
+  {
+  font-size: 20.65px;
+  line-height: 20.5px;
+ }
+  .bodyContainer p 
+  {
+  font-size: 8px;
+  line-height: 20.5px;;
+  }
+.bubbly
+{
+  top: 93px;
+  left: 345px;
+  transform: scale(0.4);
+}
+.UnderlineText .underLine
+{
+  left: 35px;
+  transform: scale(0.27);
+}
+.Container
+{
+display: grid;
+max-width: 375px;  
+margin-left: 4px;
+grid-template-rows: repeat(6,1fr);
+grid-template-columns:30px 1fr 30px;
+grid-gap:20px 0px;
+}
+.Container div{
+  width: 280px;
+  height: 380px;
+}
+.Container div h3{
+  top:10%;
+  left: 13%;
+  font-size: 25px;
+  line-height: 30px;
+}
+.Container p{
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 20px;
+
+}
+.Container button
+{
+  top:75%;
+  left: 13%;
+  padding: 10px;
+  font-size: 13.55px;
+  line-height: 18.82px;
+  width: Hug (80.55px)px;
+  height: Hug (10.64px)px;
+}
+.Container  img{
+  margin-top: 17%;
+  margin-left:17.5%;
+  height: 210px;
+  width: 410px;
+  transform: scale(1.2);
+  width: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  width: 200px;
+}
+#item1
+{
+  width: 310px;
+  height: 335px;
+}
+#item2
+{
+  width: 310px;
+  height: 335px;
+}
+#item3
+{
+  width: 310px;
+  height: 335px;
+}
+#item4
+{
+  width: 310px;
+  height: 335px;
+}
+#item5
+{
+  width: 310px;
+  height: 335px;
+}
+#item6
+{
+  width: 310px;
+  height: 335px;
+}
+#item7
+{
+  width: 310px;
+  height: 335px;
+}
+#item8
+{
+  width: 310px;
+  height: 335px;
+}
+}
+@media screen and (max-width:372px) {
+ 
+ .bodyContainer
+  {
+  max-width: 320px;
+  }  
+.bodyContainer h1
+  {
+  font-size: 14.65px;
+  line-height: 15.5px;
+ }
+  .bodyContainer p 
+  {
+  font-size: 7px;
+  line-height: 20.5px;;
+  }
+.bubbly
+{
+  top: 80px;
+  left: 293px;
+  transform: scale(0.25);
+}
+.UnderlineText .underLine
+{
+  left: 25px;
+  transform: scale(0.2);
+}
+.Container
+{
+display: grid;
+max-width: 320px;  
+margin-left: 0px;
+grid-template-rows: repeat(6,1fr);
+grid-template-columns:30px 1fr 35px;
+grid-gap:20px 0px;
+}
+.Container div{
+  width: 240px;
+  height: 380px;
+}
+.Container div h3{
+  top:10%;
+  left: 8%;
+  font-size: 25px;
+  line-height: 30px;
+}
+.Container p{
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 20px;
+
+}
+.Container button
+{
+  top:80%;
+  left: 9%;
+  padding: 10px;
+  font-size: 13.55px;
+  line-height: 18.82px;
+  width: Hug (80.55px)px;
+  height: Hug (10.64px)px;
+}
+.Container  img{
+  margin-top: 10%;
+  margin-left:11.5%;
+  height: 200px;
+  width: 150px;
+  transform: scale(1.1);
+  width: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  width: 200px;
+}
+#item1
+{
+  width: 260px;
+  height: 300px;
+}
+#item2
+{
+  width: 260px;
+  height: 300px;
+}
+#item3
+{
+  width: 260px;
+  height: 300px;
+}
+#item4
+{
+  width: 260px;
+  height: 300px;
+}
+#item5
+{
+  width: 260px;
+  height: 300px;
+}
+#item6
+{
+  width: 260px;
+  height: 300px;
+}
+#item7
+{
+  width: 260px;
+  height: 300px;
+}
+#item8
+{
+  width: 260px;
+  height: 300px;
+}
+
 }
