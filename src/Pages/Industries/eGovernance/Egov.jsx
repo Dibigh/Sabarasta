@@ -26,10 +26,10 @@ export default function Services() {
             <br></br>
             <br></br>
         </div>
-        <div id = {styles.inlineContain}>
-        <div className={styles.orangeContainer}><h2>Digital</h2><h2>Transformation</h2><br></br><br></br><p>Modernize public services with cutting-edge digital solutions. We enable governments to adopt new technologies, streamlining processes, improving service delivery, and fostering innovation for a more efficient and transparent public sector.</p></div>
-        <div className={styles.greenContainer}><h2>Citizen-Centric</h2><h2>Services</h2><br></br><br></br><p>Enhance citizen engagement through accessible and user-friendly digital platforms. Our solutions focus on improving the interaction between governments and their citizens, making essential services more efficient, responsive, and easier to access.</p></div> 
-        <div className={styles.blueContainer}><h2>Data Security &</h2><h2>Compliance</h2><br></br><br></br><p>Safeguard sensitive public data with robust cybersecurity and regulatory compliance solutions. We ensure that e-governance systems are secure and aligned with international data protection standards, ensuring the privacy and trust of citizens.</p></div></div>
+        <div className = {styles.inlineContain}>
+        <div id={styles.orangeContainer}><h2>Digital</h2><h2>Transformation</h2><br></br><br></br><p>Modernize public services with cutting-edge digital solutions. We enable governments to adopt new technologies, streamlining processes, improving service delivery, and fostering innovation for a more efficient and transparent public sector.</p></div>
+        <div id={styles.greenContainer}><h2>Citizen-Centric</h2><h2>Services</h2><br></br><br></br><p>Enhance citizen engagement through accessible and user-friendly digital platforms. Our solutions focus on improving the interaction between governments and their citizens, making essential services more efficient, responsive, and easier to access.</p></div> 
+        <div id={styles.blueContainer}><h2>Data Security &</h2><h2>Compliance</h2><br></br><br></br><p>Safeguard sensitive public data with robust cybersecurity and regulatory compliance solutions. We ensure that e-governance systems are secure and aligned with international data protection standards, ensuring the privacy and trust of citizens.</p></div></div>
          <div id={styles.separatingline}></div>
          <div className ={styles.centerTextDiv}>
             <p>At Sabrasta, we are dedicated to transforming public service delivery through innovative e-governance solutions. Our focus on enhancing transparency, citizen engagement, and data security empowers government agencies to serve their communities more effectively.</p>

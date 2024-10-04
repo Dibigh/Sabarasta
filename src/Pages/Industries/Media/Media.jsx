@@ -26,10 +26,10 @@ export default function Services() {
             <br></br>
             <br></br>
         </div>
-        <div id = {styles.inlineContain}>
-        <div className={styles.orangeContainer}><h2>Content Creation</h2><h2>& Storytelling</h2><br></br><br></br><p>Craft compelling narratives that not only captivate but also build lasting relationships with your audience. We help brands design and execute content strategies that convey powerful messages across different media formats, driving engagement and reinforcing brand identity.</p></div>
-        <div className={styles.greenContainer}><h2>Audience</h2><h2>Investment</h2><br></br><br></br><p>Leverage data-driven insights to create deeper, more meaningful connections with your audience. We analyze user behavior, optimize content in real-time, and provide detailed analytics, ensuring your campaigns resonate with the right demographics and drive measurable growth.</p></div> 
-        <div className={styles.blueContainer}><h2>Multi-Platform</h2><h2>Distribution</h2><br></br><br></br><p>Expand your reach by delivering content seamlessly across multiple channels. We ensure your media is optimized for every platform—social, digital, or broadcast—guaranteeing maximum visibility, engagement, and brand recognition across diverse audience segments.</p></div></div>
+        <div className = {styles.inlineContain}>
+        <div id={styles.orangeContainer}><h2>Content Creation</h2><h2>& Storytelling</h2><br></br><br></br><p>Craft compelling narratives that not only captivate but also build lasting relationships with your audience. We help brands design and execute content strategies that convey powerful messages across different media formats, driving engagement and reinforcing brand identity.</p></div>
+        <div id={styles.greenContainer}><h2>Audience</h2><h2>Investment</h2><br></br><br></br><p>Leverage data-driven insights to create deeper, more meaningful connections with your audience. We analyze user behavior, optimize content in real-time, and provide detailed analytics, ensuring your campaigns resonate with the right demographics and drive measurable growth.</p></div> 
+        <div id={styles.blueContainer}><h2>Multi-Platform</h2><h2>Distribution</h2><br></br><br></br><p>Expand your reach by delivering content seamlessly across multiple channels. We ensure your media is optimized for every platform—social, digital, or broadcast—guaranteeing maximum visibility, engagement, and brand recognition across diverse audience segments.</p></div></div>
          <div id={styles.separatingline}></div>
          <div className ={styles.centerTextDiv}>
             <p>At Sabrasta, we are committed to redefining the media industry through innovative technologies and engaging content strategies. By focusing on analytics, audience engagement, and digital distribution, we empower media organizations to maximize their impact and reach.</p>

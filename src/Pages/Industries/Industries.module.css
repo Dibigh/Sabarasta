@@ -174,27 +174,6 @@ button:hover
   border-radius: 8px;
   text-align: justify;
 }
-@media screen and (width:1440px) {
-  .Container
-  {
-    margin-left: 0px;
-  }
-#item2
-{
-  width: 630px;
-  height: 380px;
-}
-#item4
-{
-  width: 630px;
-  height: 380px;
-}
-#item6
-{
-  width: 630px;
-  height: 380px;
-}
-}
 @media screen and (max-width:1024px) 
 {
  .bodyContainer

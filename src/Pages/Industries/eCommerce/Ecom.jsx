@@ -26,10 +26,10 @@ export default function Services() {
             <br></br>
             <br></br>
         </div>
-        <div id = {styles.inlineContain}>
-        <div className={styles.orangeContainer}><h2>Seamless User</h2><h2>Experience</h2><br></br><br></br><p>Elevate customer satisfaction with intuitive, user-friendly platforms. We design e-commerce solutions that prioritize effortless navigation, fast load times, and secure transactions, ensuring a smooth and enjoyable shopping experience from start to finish.</p></div>
-        <div className={styles.greenContainer}><h2>Data-Driven</h2><h2>Personalization</h2><br></br><br></br><p>Boost sales by delivering personalized shopping experiences. Through advanced analytics and customer behavior tracking, we create tailored recommendations, targeted offers, and dynamic content that resonate with individual users, increasing conversion rates and customer loyalty.</p></div> 
-        <div className={styles.blueContainer}><h2>Scalable</h2><h2>Integration</h2><br></br><br></br><p> Empower your e-commerce business to grow with robust, scalable solutions. We provide seamless integration of payment gateways, inventory management, and third-party services, allowing your platform to expand efficiently while maintaining top-tier performance and security.</p></div></div>
+        <div className = {styles.inlineContain}>
+        <div id={styles.orangeContainer}><h2>Seamless User</h2><h2>Experience</h2><br></br><br></br><p>Elevate customer satisfaction with intuitive, user-friendly platforms. We design e-commerce solutions that prioritize effortless navigation, fast load times, and secure transactions, ensuring a smooth and enjoyable shopping experience from start to finish.</p></div>
+        <div id={styles.greenContainer}><h2>Data-Driven</h2><h2>Personalization</h2><br></br><br></br><p>Boost sales by delivering personalized shopping experiences. Through advanced analytics and customer behavior tracking, we create tailored recommendations, targeted offers, and dynamic content that resonate with individual users, increasing conversion rates and customer loyalty.</p></div> 
+        <div id={styles.blueContainer}><h2>Scalable</h2><h2>Integration</h2><br></br><br></br><p> Empower your e-commerce business to grow with robust, scalable solutions. We provide seamless integration of payment gateways, inventory management, and third-party services, allowing your platform to expand efficiently while maintaining top-tier performance and security.</p></div></div>
          <div id={styles.separatingline}></div>
          <div className ={styles.centerTextDiv}>
             <p>At Sabrasta, we are dedicated to revolutionizing the e-commerce industry with cutting-edge technology and tailored solutions. Our focus on enhancing customer experience, optimizing supply chain management, and ensuring secure transactions positions your business for success in a competitive market.</p>

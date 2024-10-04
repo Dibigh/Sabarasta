@@ -26,10 +26,10 @@ export default function Services() {
             <br></br>
             <br></br>
         </div>
-        <div id = {styles.inlineContain}>
-        <div className={styles.orangeContainer}><h2>Market</h2><h2>Intelligence</h2><br></br><br></br><p>Unlock the power of data to make informed decisions. Our real-time market insights and analytics help you identify trends, assess property values, and predict future market movements for strategic growth.</p></div>
-        <div className={styles.greenContainer}><h2>Client-Centric</h2><h2>Solutions</h2><br></br><br></br><p>Build lasting relationships through personalized property experiences. From smart property management systems to seamless virtual tours, we ensure that your clients receive unmatched service and engagement.</p></div> 
-        <div className={styles.blueContainer}><h2>Technology-</h2><h2>Driving Efficiency</h2><br></br><br></br><p>Streamline operations with cutting-edge technology. Our solutions enhance transaction processes, optimize property listings, and automate administrative tasks, boosting efficiency and driving profitability across your real estate ventures.</p></div></div>
+        <div className = {styles.inlineContain}>
+        <div id={styles.orangeContainer}><h2>Market</h2><h2>Intelligence</h2><br></br><br></br><p>Unlock the power of data to make informed decisions. Our real-time market insights and analytics help you identify trends, assess property values, and predict future market movements for strategic growth.</p></div>
+        <div id={styles.greenContainer}><h2>Client-Centric</h2><h2>Solutions</h2><br></br><br></br><p>Build lasting relationships through personalized property experiences. From smart property management systems to seamless virtual tours, we ensure that your clients receive unmatched service and engagement.</p></div> 
+        <div id={styles.blueContainer}><h2>Technology-</h2><h2>Driving Efficiency</h2><br></br><br></br><p>Streamline operations with cutting-edge technology. Our solutions enhance transaction processes, optimize property listings, and automate administrative tasks, boosting efficiency and driving profitability across your real estate ventures.</p></div></div>
          <div id={styles.separatingline}></div>
          <div className ={styles.centerTextDiv}>
             <p>At Sabrasta, we are committed to revolutionizing the real estate industry through innovative technology and comprehensive solutions. By focusing on data-driven insights, property management, and client engagement, we empower real estate professionals to navigate the complexities of the market effectively.</p>

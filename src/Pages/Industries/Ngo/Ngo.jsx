@@ -26,10 +26,10 @@ export default function Services() {
             <br></br>
             <br></br>
         </div>
-        <div id = {styles.inlineContain}>
-        <div className={styles.orangeContainer}><h2>Impact-Driven</h2><h2>Strategies</h2><br></br><br></br><p>Maximize the impact of your mission with strategic planning and execution. We help NGOs develop actionable frameworks that align with their core goals, ensuring that every initiative drives measurable change and amplifies their cause.</p></div>
-        <div className={styles.greenContainer}><h2>Engagement &</h2><h2>Collaboration</h2><br></br><br></br><p>Strengthen relationships with donors, volunteers, and beneficiaries. Our approach fosters deeper connections and active participation through transparent communication, community outreach, and effective partnership-building strategies.</p></div> 
-        <div className={styles.blueContainer}><h2>Sustainabile</h2><h2>Growth</h2><br></br><br></br><p>Ensure long-term success with tailored growth strategies and diversified funding sources. We support NGOs in building sustainable operations, from grant management to fundraising campaigns, that enable continuous progress toward their mission.</p></div></div>
+        <div className = {styles.inlineContain}>
+        <div id={styles.orangeContainer}><h2>Impact-Driven</h2><h2>Strategies</h2><br></br><br></br><p>Maximize the impact of your mission with strategic planning and execution. We help NGOs develop actionable frameworks that align with their core goals, ensuring that every initiative drives measurable change and amplifies their cause.</p></div>
+        <div id={styles.greenContainer}><h2>Engagement &</h2><h2>Collaboration</h2><br></br><br></br><p>Strengthen relationships with donors, volunteers, and beneficiaries. Our approach fosters deeper connections and active participation through transparent communication, community outreach, and effective partnership-building strategies.</p></div> 
+        <div id={styles.blueContainer}><h2>Sustainabile</h2><h2>Growth</h2><br></br><br></br><p>Ensure long-term success with tailored growth strategies and diversified funding sources. We support NGOs in building sustainable operations, from grant management to fundraising campaigns, that enable continuous progress toward their mission.</p></div></div>
          <div id={styles.separatingline}></div>
          <div className ={styles.centerTextDiv}>
             <p>At Sabrasta, we are committed to empowering NGOs with innovative technology solutions that enhance their impact. Our focus on data management, fundraising strategies, and community engagement ensures that nonprofits can effectively serve their missions while maximizing resources.</p>

@@ -79,7 +79,7 @@ h1{
 {
   position: relative;
   top: -22px;
-  left: 1070px;
+  left: 940px;
 }
 #contact
 {
@@ -91,7 +91,7 @@ h1{
   font-weight: 600;
   font-size: 16px;
 }
-#inlineContain 
+.inlineContain 
 {
   position: relative;
   height: 420px;
@@ -100,7 +100,7 @@ h1{
   flex-direction: row;
   justify-content: space-around;
 }
-.orangeContainer
+#orangeContainer
 {
   background-color: rgba(239, 57, 52, 0.15);
   position: absolute;
@@ -111,7 +111,7 @@ h1{
   left: 50px;
   margin-top:100px;
 }
-.orangeContainer h2
+#orangeContainer h2
 {
   margin-left: 10px;
   margin-right: 10px;
@@ -123,7 +123,7 @@ h1{
   background: none;
 }
 
-.orangeContainer p
+#orangeContainer p
 {
   margin-left: 10px;
   margin-right: 10px;
@@ -134,7 +134,7 @@ h1{
   text-align: justified;
   background: none;
 }
-.greenContainer
+#greenContainer
 {
   position: absolute;
   background-color: rgba(68, 201, 91, 0.15);
@@ -144,7 +144,7 @@ h1{
   margin-top: 100px;
   border: 1px solid rgba(68, 201, 91, 0.5);
 }
-.greenContainer h2
+#greenContainer h2
 {
   margin-left: 10px;
   margin-right: 10px;
@@ -156,7 +156,7 @@ h1{
   background: none;
 }
 
-.greenContainer p
+#greenContainer p
 {
   margin-left: 10px;
   margin-right: 10px;
@@ -167,7 +167,7 @@ h1{
   text-align: justified;
   background: none;
 }
-.blueContainer
+#blueContainer
 {
   position: absolute;
   background-color:rgba(47, 134, 235, 0.15);
@@ -178,7 +178,7 @@ h1{
   right: 50px;
   margin-top: 100px;
 }
-.blueContainer h2
+#blueContainer h2
 {
   margin-left: 10px;
   margin-right: 10px;
@@ -190,7 +190,7 @@ h1{
   background: none;
 }
 
-.blueContainer p
+#blueContainer p
 {
   margin-left: 10px;
   margin-right: 10px;
@@ -222,4 +222,698 @@ font-weight: 400;
 line-height: 24.2px;
 text-align: justified;
 color: var(--Dark, rgba(37, 37, 37, 1));
+}
+@media screen and (max-width:1400px)
+{
+  .bodyContainer
+{
+  max-width: 1024px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.temporary_nav
+{
+  left:60px;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 90px;
+}
+.bodyContainer h1{
+  font-size: 50.65px;
+}
+
+.UnderlineText .underLine
+{
+  left: 40px;
+  transform: scale(0.7);
+}
+.introText p
+{
+  font-size: 17px;
+  line-height: 20.2px;
+}
+.BestText p
+{
+  font-size: 17px;
+  line-height: 20.2px;
+}
+.bubbly
+{
+  position: relative;
+  top: -22px;
+  left: 840px;
+}
+#contact
+{
+  width: 145px;
+  height: 45px;
+}
+.inlineContain 
+{
+  height: 400px;
+  width: 1024px;
+}
+#orangeContainer
+{
+  width: 288px;
+  height: 355px;
+  left: 50px;
+  margin-top:40px;
+}
+#orangeContainer h2
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+#orangeContainer p
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px; 
+  line-height: 24px;
+}
+#greenContainer
+{
+  width: 288px;
+  height: 355px;
+  margin-top: 40px;
+}
+#greenContainer h2
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+#greenContainer p
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px; 
+  line-height: 24px;
+}
+#blueContainer
+{
+  width: 288px;
+  height: 355px;
+  right: 50px;
+  margin-top: 40px;
+}
+#blueContainer h2
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+#blueContainer p
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Inter;
+  font-size: 16px; 
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justified;
+  background: none;
+}
+#separatingline{
+    margin-top: 5%;
+    width:90%;
+
+}
+.centerTextDiv
+{
+margin-top: 5%;
+width: 800px;
+height: 340px;
+}
+.centerTextDiv p
+{
+font-size: 17px;
+line-height: 20.2px;
+}  
+}
+@media screen and (max-width:1022px)
+{
+  .bodyContainer
+{
+  max-width: 960px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.temporary_nav
+{
+  left:60px;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 90px;
+}
+.bodyContainer h1{
+  font-size: 45.65px;
+}
+
+.UnderlineText .underLine
+{
+  top:-10px;
+  left: 40px;
+  transform: scale(0.65);
+}
+.introText p
+{
+  font-size: 12px;
+  line-height: 18.2px;
+}
+.BestText p
+{
+  font-size: 12px;
+  line-height: 28.2px;
+}
+.bubbly
+{
+  position: relative;
+  top: -22px;
+  left: 600px;
+  transform: scale(0.6);
+}
+#contact
+{
+  width: 135px;
+  height: 40px;
+}
+.inlineContain 
+{
+  height: 460px;
+  width: 768px;
+}
+#orangeContainer
+{
+  width: 200px;
+  height: 410px;
+  left: 50px;
+  margin-top:40px;
+}
+#orangeContainer h2
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+#orangeContainer p
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#greenContainer
+{
+  width: 200px;
+  height:410px;
+  margin-top: 40px;
+}
+#greenContainer h2
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+#greenContainer p
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#blueContainer
+{
+  width: 200px;
+  height: 410px;
+  right: 50px;
+  margin-top: 40px;
+}
+#blueContainer h2
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+#blueContainer p
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Inter;
+  font-size: 14px; 
+  font-weight: 400;
+  line-height: 20px;
+  text-align: justified;
+  background: none;
+}
+#separatingline{
+    margin-top: 5%;
+    width:90%;
+
+}
+.centerTextDiv
+{
+margin-top: 5%;
+width: 648px;
+height: 340px;
+}
+.centerTextDiv p
+{
+font-size: 14px;
+line-height: 20.2px;
+}  
+}
+@media screen and (max-width:766px)
+{
+  .bodyContainer
+{
+  max-width: 425px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.temporary_nav
+{
+  left:40px;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 90px;
+}
+.temporary_nav ul li 
+{
+  font-size: 12px;
+}
+.bodyContainer h1{
+  font-size: 35.65px;
+}
+
+.UnderlineText .underLine
+{
+  left: 40px;
+  transform: scale(0.65);
+}
+.introText p
+{
+  font-size: 12px;
+  line-height: 18.2px;
+}
+.BestText p
+{
+  font-size: 12px;
+  line-height: 28.2px;
+}
+.bubbly
+{
+  position: relative;
+  top: -20px;
+  left: 340px;
+  transform: scale(0.6);
+}
+#contact
+{
+  width: 135px;
+  height: 40px;
+}
+.inlineContain 
+{
+  height: 1040px;
+  width: 425x;
+}
+#orangeContainer
+{
+  width: 345px;
+  height: 300px;
+  left: 210px;
+  margin-top:40px;
+}
+#orangeContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+#orangeContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#greenContainer
+{
+  width: 345px;
+  height:300px;
+  margin-top: 380px;
+  left:210px;
+}
+#greenContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 30px;
+}
+#greenContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#blueContainer
+{
+  width: 345px;
+  height: 300px;
+  right: 50px;
+  left:210px;
+  margin-top: 720px;
+}
+#blueContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 30px;
+}
+#blueContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#separatingline{
+    margin-top: 10%;
+    width:90%;
+
+}
+.centerTextDiv
+{
+margin-top: 5%;
+width: 345px;
+height: 340px;
+}
+.centerTextDiv p
+{
+font-size: 12px;
+line-height: 20.2px;
+}  
+}
+@media screen and (max-width:422px)
+{
+  .bodyContainer
+{
+  max-width: 375px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.temporary_nav
+{
+  left:35px;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 90px;
+}
+.temporary_nav ul li 
+{
+  font-size: 10px;
+}
+.bodyContainer h1{
+  font-size: 35.65px;
+}
+
+.UnderlineText .underLine
+{
+  top:-20px;
+  left: 30px;
+  transform: scale(0.5);
+}
+.introText p
+{
+  font-size: 8px;
+  line-height: 12.2px;
+}
+.BestText p
+{
+  font-size: 10px;
+  line-height: 28.2px;
+}
+.bubbly
+{
+  position: relative;
+  top: -22px;
+  left: 310px;
+  transform: scale(0.4);
+}
+#contact
+{
+  width: 85px;
+  height: 30px;
+  font-size: 12px;
+}
+.inlineContain 
+{
+  height: 1040px;
+  width: 375x;
+}
+#orangeContainer
+{
+  width: 305px;
+  height: 310px;
+  left: 230px;
+  margin-top:40px;
+}
+#orangeContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+#orangeContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#greenContainer
+{
+  width: 305px;
+  height: 310px;
+  left: 230px;
+  margin-top: 380px;
+}
+#greenContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 30px;
+}
+#greenContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#blueContainer
+{
+  width: 305px;
+  height: 310px;
+  left: 230px;
+  margin-top: 720px;
+}
+#blueContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 30px;
+}
+#blueContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#separatingline{
+    margin-top: 10%;
+    width:90%;
+
+}
+.centerTextDiv
+{
+margin-top: 5%;
+width: 315px;
+height: 340px;
+}
+.centerTextDiv p
+{
+font-size: 10px;
+line-height: 20.2px;
+}  
+}
+@media screen and (max-width:373px)
+{
+  .bodyContainer
+{
+  max-width: 320px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.temporary_nav
+{
+  left:30px;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 90px;
+}
+.temporary_nav ul li 
+{
+  font-size: 10px;
+}
+.bodyContainer h1{
+  font-size: 30.65px;
+}
+
+.UnderlineText .underLine
+{
+  top:-20px;
+  left: 30px;
+  transform: scale(0.5);
+}
+.introText p
+{
+  font-size: 8px;
+  line-height: 12.2px;
+}
+.BestText p
+{
+  font-size: 9px;
+  line-height: 28.2px;
+}
+.bubbly
+{
+  position: relative;
+  top: -20px;
+  left: 240px;
+  transform: scale(0.4);
+}
+#contact
+{
+  width: 85px;
+  height: 30px;
+  font-size: 12px;
+}
+.inlineContain 
+{
+  height: 1100px;
+  width: 375x;
+}
+#orangeContainer
+{
+  width: 260px;
+  height: 320px;
+  left: 255px;
+  margin-top:40px;
+}
+#orangeContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+#orangeContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#greenContainer
+{
+  width: 260px;
+  height: 320px;
+  left: 255px;
+  margin-top: 395px;
+}
+#greenContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 30px;
+}
+#greenContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#blueContainer
+{
+  width: 260px;
+  height: 320px;
+  left: 255px;
+  margin-top: 750px;
+}
+#blueContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 30px;
+}
+#blueContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#separatingline{
+    margin-top: 10%;
+    width:90%;
+
+}
+.centerTextDiv
+{
+margin-top: 5%;
+width: 260px;
+height: 365px;
+}
+.centerTextDiv p
+{
+font-size: 10px;
+line-height: 20.2px;
+}  
 }
