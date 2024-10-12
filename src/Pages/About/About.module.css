@@ -1,0 +1,1034 @@
+.bodyContainer
+{
+  max-width: 1536px;
+  position: relative;
+  top: 80px;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bodyContainer p
+{
+font-family: Inter;
+font-size: 20px;
+font-weight: 300;
+line-height: 24.2px;
+text-align: center;
+
+}
+.bubbly
+{
+  position: absolute;
+  top: 210px;
+  left: 1270px;
+}
+h1{
+  text-align: center;
+  font-family: Inter;
+  font-size: 70.65px;
+  font-weight: 800;
+}
+
+.UnderlineText .underLine
+{
+  position: relative;
+  left: 400px;
+  display: flex;
+  margin: 0%;
+  transform: scale(0.8);
+}
+.UnderlineText img{
+  width: 450px;
+  background-image: none;
+}
+.Container{
+  margin-top: 5%;
+  height: 400px;
+  width: 1300px;
+  padding-left: 20px;
+  margin-bottom: 5%;
+}
+.Container p
+{
+  font-family: Inter;
+font-size: 20px;
+font-weight: 300;
+line-height: 24.2px;
+text-align: left;
+}
+.Container P:nth-of-type(1)
+{
+font-family: Playfair Display;
+font-size: 48px;
+font-weight: 600;
+line-height: 63.98px;
+text-align: left;
+}
+.Container p span{
+font-family: Playfair Display;
+font-size: 35px;
+font-weight: 800;
+text-align: left;
+color:var(--Orange, rgba(239, 57, 52, 1));
+}
+.Board
+{
+  margin-bottom: 5%;
+}
+.Board p
+{
+font-family: Playfair Display;
+font-size: 55px;
+font-weight: 500;
+line-height: 73.32px;
+text-align: center;
+margin-bottom: 5%;
+}
+.Board span{
+font-family: Playfair Display;
+font-size: 55px;
+font-weight: 800;
+line-height: 73.32px;
+text-align: center;
+}
+.GridLay
+{
+display: grid;
+grid-template-rows: repeat(2,1fr);
+grid-template-columns: repeat(3,1fr);
+justify-items: start;
+align-items: center;
+grid-gap: 20px 10px;
+width: 1320px;
+padding-left:30px;
+margin-bottom: 100px;
+}
+.GridLay img
+{
+position: absolute;
+top: 15px;
+width:380px;
+height:270px;
+background: none;
+}
+.ProfileText
+{
+  align-self: start;
+  background: none;
+  overflow: hidden;
+}
+.ProfileText p
+{
+position: absolute;
+top:280px;
+padding-left: 20px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+background: none;
+}
+.ProfileText span
+{
+position: absolute;
+top: 310px;
+left: -5px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 600;
+padding-left: 25px;
+background: none;
+}
+ .LogoText
+{
+position: absolute;
+top: 375px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+padding-left:20px;
+background: none;
+text-align: left;
+}
+.Icons
+{
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  top: 455px;
+  left: 15px;
+  height: 30px;
+  width: 180px;
+  background:none;
+}
+.Icons img{
+  position: absolute;
+  top: 0;
+  height: fit-content;
+  width: auto;
+}
+#Boxes1
+{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+width:420px;
+height:500px;
+border-radius: 8px;
+border: 1px;
+opacity: 0px;
+background-color: rgba(239, 57, 52, 0.15);
+}
+#Boxes2
+{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+width:420px;
+height:500px;
+border-radius: 8px;
+border: 1px;
+opacity: 0px;
+background-color:  rgba(68, 201, 91, 0.15);
+
+}
+#Boxes3
+{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+width:420px;
+height:500px;
+border-radius: 8px;
+border: 1px;
+opacity: 0px;
+background-color: rgba(47, 134, 235, 0.15);
+;
+}
+#Boxes4
+{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+width:420px;
+height:500px;
+border-radius: 8px;
+border: 1px;
+opacity: 0px;
+background-color:  rgba(47, 134, 235, 0.15);
+;
+}
+#Boxes5
+{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+width:420px;
+height:500px;
+border-radius: 8px;
+border: 1px;
+opacity: 0px;
+background-color:  rgba(239, 57, 52, 0.15);
+;
+}
+#Boxes6
+{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+width:420px;
+height:500px;
+border-radius: 8px;
+border: 1px;
+opacity: 0px;
+background-color:  rgba(68, 201, 91, 0.15);
+}
+@media screen and (max-width:1440px) 
+{
+  .bodyContainer
+  {
+    max-width: 1300px;
+    left: 66px;
+  }  
+  .bubbly
+{
+  position: absolute;
+  top: 210px;
+  left: 1200px;
+}
+.UnderlineText .underLine
+{
+  left: 400px;
+  transform: scale(0.8);
+}
+#Boxes1
+{
+width:417px;
+height:490px;
+}
+#Boxes2
+{
+width:417px;
+height:490px;
+}
+#Boxes3
+{
+width:417px;
+height:490px;
+}
+#Boxes4
+{
+width: 417px;
+height:490px;
+}
+#Boxes5
+{
+width:417px;
+height:490px;
+}
+#Boxes6
+{
+width:417px;
+height:490px;
+}
+.GridLay
+{
+grid-gap: 20px 0px;
+}
+.Container{
+  padding-left: 0px;
+}
+}
+@media screen and (max-width:1280px) {
+  .bodyContainer
+  {
+    max-width: 940px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+  }  
+
+.bodyContainer h1
+{
+  font-size: 50.65px;
+  line-height: 65.5px
+} 
+.bodyContainer>p
+{
+  font-size: 16px;
+  line-height: 24px;
+}
+.UnderlineText .underLine
+{
+  top:-10px;
+  left: 240px;
+  transform: scale(0.65);
+}
+  .bubbly
+  {
+  top: 190px;
+  left: 840px;
+  }
+  .Container{
+  height: 320px;
+  width: 940px;
+}
+.Container p
+{
+font-size: 16px;
+line-height: 24px;
+}
+.Container P:nth-of-type(1)
+{
+font-size: 38px;
+line-height: 53.98px;
+}
+.Container p span{
+font-size: 35px;
+/* line-height: 50px; */
+}
+.Board
+{
+  width: 930px;
+  margin-bottom: 5%;
+}
+.Board p
+{
+font-size: 55px;
+line-height: 73.32px;
+margin-bottom: 5%;
+}
+.Board span{
+font-size: 55px;
+line-height: 73.32px;
+}
+.GridLay
+{
+padding-left: 0px;
+grid-gap: 20px 20px;
+width: 930px;
+margin-bottom: 40px;
+}
+.GridLay img
+{
+top: 5px;
+width:250px;
+height:200px;
+}
+.ProfileText
+{
+  align-self: start;
+}
+.ProfileText p
+{
+top:180px;
+padding-left: 20px;
+font-size: 16px;
+}
+.ProfileText span
+{
+top: 200px;
+left: -5px;
+font-size: 14px;
+padding-left: 25px;
+}
+ .LogoText
+{
+top: 270px;
+font-size: 14px;
+padding-left:20px;
+}
+.Icons
+{
+  top: 360px;
+  left: 15px;
+  height: 20px;
+  width: 150px;
+}
+.Icons>img
+{
+  width: auto;
+  top:0;
+  height: 20px;
+}
+#Boxes1
+{
+width:295px;
+height:400px;
+}
+#Boxes2
+{
+width:295px;
+height:400px;
+}
+#Boxes3
+{
+width:295px;
+height:400px;
+}
+#Boxes4
+{
+width:295px;
+height:400px;
+}
+#Boxes5
+{
+width:295px;
+height:400px;
+}
+#Boxes6
+{
+width:295px;
+height:400px;
+}
+}
+@media screen and (max-width:960px) {
+  .bodyContainer
+  {
+    max-width: 660px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+  }  
+
+.bodyContainer h1
+{
+  font-size: 40.65px;
+  line-height: 55.5px
+} 
+.bodyContainer>p
+{
+  font-size: 12px;
+  line-height: 22px;
+}
+.UnderlineText .underLine
+{
+  top:-10px;
+  left: 145px;
+  transform: scale(0.5);
+}
+  .bubbly
+  {
+  top: 160px;
+  left: 610px;
+  transform: scale(0.55);
+  }
+  .Container{
+  height: 320px;
+  width: 665px;
+  margin-bottom: 0%;
+}
+.Container p
+{
+font-size: 12px;
+line-height: 20px;
+padding-left: 2px;
+}
+.Container P:nth-of-type(1)
+{
+font-size: 28px;
+line-height: 42.98px;
+}
+.Container p span{
+font-size: 28px;
+line-height: 44px;
+}
+.Board
+{
+  width: 665px;
+  margin-bottom: 5%;
+}
+.Board p
+{
+font-size: 35px;
+line-height: 53.32px;
+margin-bottom: 5%;
+}
+.Board span{
+font-size: 35px;
+line-height: 53.32px;
+}
+.GridLay
+{
+padding-left: 4px;
+grid-gap: 10px 5px;
+width: 665px;
+margin-bottom: 40px;
+}
+.GridLay img
+{
+top: 15px;
+width:170px;
+height:120px;
+}
+.ProfileText
+{
+  align-self: start;
+}
+.ProfileText p
+{
+top:130px;
+padding-left: 20px;
+font-size: 12px;
+}
+.ProfileText span
+{
+top: 145px;
+left: -5px;
+font-size: 12px;
+padding-left: 25px;
+}
+ .LogoText
+{
+top: 195px;
+font-size: 11px;
+padding-left:20px;
+}
+.Icons
+{
+  top: 260px;
+  left: 20px;
+  height: 30px;
+  width: 150px;
+}
+.Icons>img 
+{
+  top:0;
+  width: auto;
+  height: 16px;
+}
+#Boxes1
+{
+width:210px;
+height:290px;
+}
+#Boxes2
+{
+width:210px;
+height:290px;
+}
+#Boxes3
+{
+width:210px;
+height:290px;
+}
+#Boxes4
+{
+width:210px;
+height:290px;
+}
+#Boxes5
+{
+width:210px;
+height:290px;
+}
+#Boxes6
+{
+width:210px;
+height:290px;
+}
+
+}
+@media screen and (max-width:576px) {
+  .bodyContainer
+  {
+    max-width: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+  }  
+
+.bodyContainer h1
+{
+  font-size: 25.65px;
+  line-height: 35.5px
+} 
+.bodyContainer>p
+{
+  font-size: 10px;
+  line-height: 20px;
+}
+.UnderlineText .underLine
+{
+  top:-10px;
+  left: 75px;
+  transform: scale(0.3);
+}
+  .bubbly
+  {
+  top: 145px;
+  left: 235px;
+  transform: scale(0.4);
+  }
+  .Container{
+  margin-top: 20px;
+  height: 340px;
+  width: 350px;
+  margin-bottom: 0%;
+}
+.Container p
+{
+font-size: 10px;
+line-height: 20px;
+}
+.Container P:nth-of-type(1)
+{
+font-size: 18px;
+line-height: 32.98px;
+}
+.Container p span{
+font-size: 18px;
+line-height: 33px;
+}
+.Board
+{
+  width: 350px;
+  margin-bottom: 5%;
+}
+.Board p
+{
+font-size: 25px;
+line-height: 33.32px;
+margin-bottom: 5%;
+}
+.Board span{
+font-size: 25px;
+line-height: 33.32px;
+}
+.GridLay
+{
+padding-top: 10px;
+display: grid;
+grid-template-rows: repeat(6,1fr);
+grid-template-columns: repeat(1,1fr);
+justify-items: center;
+align-items: center;
+grid-gap: 30px;
+width: 350px;
+margin-bottom: 40px;
+padding-left: 0px;
+}
+.GridLay img
+{
+top: 20px;
+width:320px;
+height:220px;
+}
+.ProfileText
+{
+  align-self: start;
+}
+.ProfileText p
+{
+top:250px;
+padding-left: 20px;
+font-size: 14px;
+}
+.ProfileText span
+{
+top: 270px;
+left: 0px;
+font-size: 14px;
+padding-left: 20px;
+}
+ .LogoText
+{
+top: 310px;
+font-size: 15px;
+padding-left:20px;
+}
+.Icons
+{
+  top: 380px;
+  left: 15px;
+  height: 30px;
+  width: 155px;
+}
+.Icons>img{
+ position: absolute;
+  top: 0;
+  height: fit-content;
+  width: auto;
+}
+#Boxes1
+{
+width:350px;
+height:420px;
+}
+#Boxes2
+{
+width:350px;
+height:420px;
+}
+#Boxes3
+{
+width:350px;
+height:420px;
+}
+#Boxes4
+{
+width:350px;
+height:420px;
+}
+#Boxes5
+{
+width:350px;
+height:420px;
+}
+#Boxes6
+{
+width:350px;
+height:420px;
+}
+
+}
+@media screen and (max-width:380px) {
+  .bodyContainer
+  {
+    max-width: 310px;
+  }  
+
+.bodyContainer h1
+{
+  font-size: 20.65px;
+  line-height: 30.5px
+} 
+.bodyContainer>p
+{
+  font-size: 9px;
+  line-height: 15px;
+}
+.UnderlineText .underLine
+{
+  top:-10px;
+  left: 65px;
+  transform: scale(0.23);
+}
+  .bubbly
+  {
+  top: 128px;
+  left: 230px;
+  transform: scale(0.35);
+  }
+  .Container{
+    margin-top: 20px;
+  height: 280px;
+  width: 310px;
+  margin-bottom: 0%;
+}
+.Container p
+{
+font-size: 9px;
+line-height: 15px;
+}
+.Container P:nth-of-type(1)
+{
+font-size: 14px;
+line-height: 24.98px;
+}
+.Container p span{
+font-size: 14px;
+line-height: 25px;
+}
+.Board
+{
+  width: 350px;
+  margin-bottom: 5%;
+}
+.Board p
+{
+font-size: 25px;
+line-height: 33.32px;
+margin-bottom: 5%;
+}
+.Board span{
+font-size: 25px;
+line-height: 33.32px;
+}
+.GridLay
+{
+width: 350px;
+}
+.GridLay img
+{
+top: 15px;
+width:270px;
+height:200px;
+}
+.ProfileText
+{
+  align-self: start;
+}
+.ProfileText p
+{
+top:215px;
+padding-left: 20px;
+font-size: 14px;
+}
+.ProfileText span
+{
+top: 230px;
+left: 0px;
+font-size: 14px;
+padding-left: 20px;
+}
+ .LogoText
+{
+top: 270px;
+font-size: 15px;
+padding-left:20px;
+}
+.Icons
+{
+  top: 360px;
+  left: 15px;
+  height: 27px;
+  width: 152px;
+}
+.Icons>img{
+ position: absolute;
+  top: 0;
+  height: fit-content;
+  width: auto;
+}
+#Boxes1
+{
+width:310px;
+height:400px;
+}
+#Boxes2
+{
+width:310px;
+height:400px;
+}
+#Boxes3
+{
+width:310px;
+height:400px;
+}
+#Boxes4
+{
+width:310px;
+height:400px;
+}
+#Boxes5
+{
+width:310px;
+height:400px;
+}
+#Boxes6
+{
+width:310px;
+height:400px;
+}
+}
+@media screen and (max-width:325px) {
+  .bodyContainer
+  {
+    max-width: 270px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+  }  
+
+.bodyContainer h1
+{
+  font-size: 14.65px;
+  line-height: 20.5px
+} 
+.bodyContainer>p
+{
+  font-size: 8px;
+  line-height: 15px;
+}
+.UnderlineText .underLine
+{
+  left: 45px;
+  transform: scale(0.18);
+}
+  .bubbly
+  {
+  top: 107px;
+  left: 205px;
+  transform: scale(0.35);
+  }
+  .Container{
+  height: 250px;
+  width: 270px;
+  margin-bottom: 0%;
+}
+.Container p
+{
+font-size: 8px;
+line-height: 13px;
+}
+.Container P:nth-of-type(1)
+{
+font-size: 13px;
+line-height: 22.98px;
+}
+.Container p span{
+font-size: 13px;
+line-height: 23px;
+}
+.Board
+{
+  width: 310px;
+  margin-bottom: 5%;
+}
+.Board p
+{
+font-size: 20px;
+line-height: 30.32px;
+margin-bottom: 2%;
+}
+.Board span{
+font-size: 20px;
+line-height: 30.32px;
+}
+.GridLay
+{
+width: 310px;
+margin-bottom: 40px;
+}
+.GridLay img
+{
+left: 10px;
+top: 6px;
+width:250px;
+height:180px;
+}
+.ProfileText
+{
+  align-self: start;
+}
+.ProfileText p
+{
+top:185px;
+padding-left: 10px;
+font-size: 12px;
+}
+.ProfileText span
+{
+top: 200px;
+left: 0px;
+font-size: 10px;
+padding-left: 10px;
+}
+ .LogoText
+{
+top: 230px;
+font-size: 10px;
+padding-left:10px;
+}
+.Icons
+{
+  top: 285px;
+  left: -5px;
+  height: 23px;
+  width: 145px;
+}
+.Icons>img{
+ position: absolute;
+  top: 0;
+  height: fit-content;
+  width: auto;
+}
+#Boxes1
+{
+width:270px;
+height:320px;
+}
+#Boxes2
+{
+width:270px;
+height:320px;
+}
+#Boxes3
+{
+width:270px;
+height:320px;
+}
+#Boxes4
+{
+width:270px;
+height:320px;
+}
+#Boxes5
+{
+width:270px;
+height:320px;
+}
+#Boxes6
+{
+width:270px;
+height:320px;
+}
+}

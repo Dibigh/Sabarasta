@@ -1,0 +1,322 @@
+.bodyContainer
+{
+  display: flex;
+  position: relative;
+  height: auto;
+  flex-direction: column;
+  top: 80px;
+  align-items: center;
+}
+.bubbly
+{
+  position: absolute;
+  top: 200px;
+  left: 1190px;
+}
+h2{
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.73px;
+  text-align: left;
+  color: var(--Dark, rgba(37, 37, 37, 1));
+}
+h1{
+  text-align: center;
+  font-family: Inter;
+  font-size: 70.65px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.UnderlineText .underLine
+{
+  position: relative;
+  left: -15px;
+  display: flex;
+  margin: 0%;
+  transform: scale(0.8);
+}
+.UnderlineText img{
+  width: 450px;
+  background-image: none;
+}
+.PriText
+{
+  position: relative;
+  left:0px;
+  margin-top: 5%;
+  width: 1285px;
+  margin-bottom: 5%;
+}
+.PriText p{
+  text-align: left;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  text-align: left;
+  color: var(--Dark, rgba(37, 37, 37, 1));
+}
+
+@media screen and (max-width: 1460px) {
+  .bubbly
+  {
+    position: absolute;
+    top: 205px;
+    left: 1100px;
+  }
+  h1
+{
+  font-size: 60.65px;
+  font-weight: 800;
+}
+p
+{
+  font-size: 16px;
+}
+.UnderlineText .underLine
+{
+  position: relative;
+  top:2px;
+  left: 80px;
+  display: flex;
+  margin: 0%;
+}
+.UnderlineText img{
+  width: 330px;
+  background-image: none;
+}
+.PriText
+{
+  width: 1210px;
+}
+.PriText h2
+{
+
+  font-size: 29px;
+  line-height: 35.73px;
+  margin-left: 0px;
+}
+.PriText p
+{
+  font-size: 16px;
+  text-align: justify;
+}
+}
+@media screen and (max-width: 1360px) {
+.bubbly
+  {
+    position: absolute;
+    top: 205px;
+    left: 870px;
+  }
+.bodyContainer h1
+{
+  font-size: 60.65px;
+  font-weight: 800;
+}
+p
+{
+  font-size: 16px;
+}
+.UnderlineText .underLine
+{
+  position: relative;
+  top:2px;
+  left: 100px;
+  display: flex;
+  margin: 0%;
+}
+.UnderlineText img{
+  width: 370px;
+  background-image: none;
+}
+.PriText
+{
+  width: 920px;
+  margin-bottom: 5%;
+}
+.PriText h2
+{
+
+  font-size: 29px;
+  line-height: 35.73px;
+  margin-left: 0px;
+}
+.PriText p
+{
+  font-size: 16px;
+  text-align: justify;
+}
+}
+@media screen and (max-width: 850px) {
+  .bubbly
+  {
+    position: absolute;
+    top: 140px;
+    left: 580px;
+    transform: scale(0.6);
+  }
+.bodyContainer h1 
+{
+  font-size: 40.65px;
+  font-weight: 800;
+  font-family: Inter;
+  line-height: 35.5px;
+}
+p
+{
+  font-size: 14px;
+}
+.UnderlineText .underLine
+{
+  position: relative;
+  left:10px;
+  display: flex;
+  margin: 0%;
+}
+.UnderlineText img{
+  width: 300px;
+  background-image: none;
+}
+.PriText
+{
+  width: 670px;
+  margin-bottom: 5%;
+}
+.PriText h2
+{
+
+  font-size: 25px;
+  line-height: 35.73px;
+  margin-left: 0px;
+}
+.PriText p
+{
+  font-size: 14px;
+  text-align: justify;
+}
+}
+@media screen and (max-width: 450px) {
+  .bubbly
+  {
+    position: absolute;
+    top:100px;
+    left: 320px;
+    transform: scale(0.5);
+  }
+.bodyContainer h1 
+{
+  font-size: 20.65px;
+  font-weight: 800;
+  font-family: Inter;
+  line-height: 24.5px;
+}
+.bodyContainer p
+{
+  font-size: 9px;
+}
+.UnderlineText .underLine
+{
+  position: relative;
+  left: 0px;
+  display: flex;
+  margin: 0%;
+}
+.UnderlineText img{
+  width: 150px;
+  background-image: none;
+}
+.PriText
+{
+  width: 340px;
+  margin-bottom: 2%;
+}
+.PriText h2
+{
+
+  font-size: 13px;
+  line-height: 20.73px;
+}
+.PriText p
+{
+  font-size: 10px;
+  text-align: justify;
+  line-height: 15px;
+}
+}
+@media screen and (max-width:390px) {
+  .bubbly
+  {
+    position: absolute;
+    top:95px;
+    left: 245px;
+    transform: scale(0.4);
+  }
+.bodyContainer h1 
+{
+  font-size: 18.65px;
+  font-weight: 800;
+  font-family: Inter;
+  line-height: 22.5px;
+}
+.bodyContainer p
+{
+  font-size: 8px;
+}
+.UnderlineText .underLine
+{
+  position: relative;
+  top:2px;
+  left: 20px;
+  display: flex;
+  margin: 0%;
+}
+.UnderlineText img{
+  width: 120px;
+  background-image: none;
+}
+.PriText
+{
+  width: 310px;
+  margin-bottom: 2%;
+}
+.PriText h2
+{
+
+  font-size: 13px;
+  line-height: 20.73px;
+}
+.PriText p
+{
+  font-size: 10px;
+  text-align: justify;
+  line-height: 15px;
+}
+}
+@media screen and (max-width:340px) {
+  .bubbly
+  {
+    position: absolute;
+    top:93px;
+    left: 215px;
+    transform: scale(0.4);
+  }
+.bodyContainer p
+{
+  font-size: 7.5px;
+}
+.PriText
+{
+  width: 250px;
+  margin-bottom: 2%;
+}
+.PriText p
+{
+  font-size: 9px;
+  text-align: justify;
+  line-height: 14px;
+}
+}

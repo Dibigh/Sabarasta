@@ -1,0 +1,45 @@
+.slider-container {
+
+  width: 1280px;
+  background-color: #f5f5f5;
+}
+
+.slick-slide {
+  overflow: hidden;
+  height: 390px;
+  width: 00px;
+  text-align: center;
+}
+
+.slide {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  height: 300px;
+}
+h2 {
+  font-size: 1.5em;
+}
+p {
+  font-size: 1.1em;
+}
+/* Adjust the dots container */
+.slick-dots {
+  bottom: 10px; 
+}
+.Carousel
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Optional: Custom styles for dots */
+.slick-dots li button:before {
+  font-size: 10px; /* You can reduce the size of the dots if necessary */
+  color: gray; /* Custom color */
+}
+
+/* Optional: Change active dot styling */
+.slick-dots li.slick-active button:before {
+  color: black; /* Active dot color */
+}

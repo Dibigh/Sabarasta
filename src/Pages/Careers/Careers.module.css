@@ -1,0 +1,241 @@
+.bodyContainer
+{
+  display: flex;
+  position: relative;
+  height: auto;
+  flex-direction: column;
+  top: 60px;
+  align-items: center;
+}
+.bubbly
+{
+  position: absolute;
+  top: 170px;
+  left: 1220px;
+}
+h1{
+  text-align: center;
+  font-family: Inter;
+  font-size: 70.65px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.UnderlineText .underLine
+{
+  position: relative;
+  left: 230px;
+  display: flex;
+  margin: 0%;
+  transform: scale(0.8);
+}
+.UnderlineText img{
+    width: 450px;
+    background-image: none;
+}
+.Container{
+  display: grid;
+  grid-template-columns: auto;
+  height: fit-content;
+  width: 1400px;
+  justify-content: center;
+  margin-top: 5%;
+  row-gap: 50px;
+  margin-bottom: 50px;
+}
+#GridDiv1
+{
+  height: 550px;
+  width: 1280px;
+  background-color: rgba(47, 134, 235, 0.15);
+  border: 1px solid rgba(47, 134, 235, 0.7);
+  border-radius: 8px;
+  color: black;
+  place-content: center;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 104.19px;
+  font-weight: 800;
+  line-height: 126.09px;
+}
+@media screen and (max-width:1024px) {
+   .bodyContainer
+  {
+    max-width: 960px;
+    left: 50%;
+    transform: translateX(-50%);
+  }  
+  .bubbly
+{
+  top: 300px;
+  left: 640px;
+  transform: scale(0.7);
+}
+.bodyContainer h1{
+  font-size: 65.65px;
+}
+
+.UnderlineText .underLine
+{
+  left: 220px;
+  transform: scale(0.9);
+}
+.UnderlineText img{
+    width: 400px;
+}
+.Container{
+  width: 960px;
+  margin-bottom: 40px;
+}
+#GridDiv1
+{
+  height: 500px;
+  width: 920px;
+}
+}
+@media screen and (max-width:976px) {
+   .bodyContainer
+  {
+    max-width: 768px;
+  }  
+  .bubbly
+{
+  top: 130px;
+  left: 500px;
+  transform: scale(0.7);
+}
+.bodyContainer h1{
+  font-size: 40.65px;
+  line-height: 30px;
+}
+
+.UnderlineText .underLine
+{
+  top:2px;
+  left: 95px;
+  transform: scale(0.7);
+}
+.UnderlineText img{
+    width: 400px;
+}
+.Container{
+  width: 768px;
+  margin-bottom: 40px;
+}
+#GridDiv1
+{
+  height: 420px;
+  width: 660px;
+}
+}
+@media screen and (max-width:767px) {
+   .bodyContainer
+  {
+    max-width: 425px;
+  }  
+  .bubbly
+{
+  top: 145px;
+  left: 300px;
+  transform: scale(0.5);
+}
+.bodyContainer h1{
+  font-size: 30.65px;
+  line-height: 30px;
+}
+.bodyContainer p{
+  font-size: 9px;
+}
+.UnderlineText .underLine
+{
+  left: 80px;
+}
+.UnderlineText img{
+    width: 240px;
+}
+.Container{
+  margin-top: 50px;
+  width: 425px;
+  margin-bottom: 40px;
+}
+#GridDiv1
+{
+  font-size: 50px;
+  height: 320px;
+  width: 350px;
+}
+}
+@media screen and (max-width:424px) {
+   .bodyContainer
+  {
+    max-width: 375px;
+  }  
+  .bubbly
+{
+  top: 145px;
+  left: 260px;
+  transform: scale(0.5);
+}
+.bodyContainer h1{
+  font-size: 25.65px;
+  line-height: 30px;
+}
+.bodyContainer p{
+  font-size: 8px;
+}
+.UnderlineText .underLine
+{
+  left: 70px;
+}
+.UnderlineText img{
+    width: 200px;
+}
+.Container{
+  margin-top: 50px;
+  width: 375px;
+  margin-bottom: 40px;
+}
+#GridDiv1
+{
+  font-size: 30px;
+  height: 310px;
+  width: 300px;
+}
+}
+@media screen and (max-width:374px) {
+   .bodyContainer
+  {
+    max-width: 320px;
+  }  
+  .bubbly
+{
+  top: 105px;
+  left: 225px;
+  transform: scale(0.35);
+}
+.bodyContainer h1{
+  font-size: 20.65px;
+  line-height: 20px;
+}
+.bodyContainer p{
+  font-size: 6.78px;
+}
+.UnderlineText .underLine
+{
+  left: 50px;
+}
+.UnderlineText img{ 
+  width: 170px;
+}
+.Container{
+  margin-top: 50px;
+  width: 320px;
+  margin-bottom: 40px;
+}
+#GridDiv1
+{
+  font-size: 30px;
+  height: 240px;
+  width: 260px;
+}
+}
