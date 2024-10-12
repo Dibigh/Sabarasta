@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;  
   background-color: #E9EAE9;
-  font-family: "Inter", sans-serif;
 }
 .bodyContainer
 {
@@ -10,21 +9,23 @@
   position: relative;
   height: auto;
   flex-direction: column;
-  top: 60px;
+  top: 180px;
   align-items: center;
   overflow-y: hidden;
 }
-#starDoodle
+.bubbly
 {
-  position: relative;
-  right: 140px;
+  position: absolute;
+  top: 210px;
+  left: 1220px;
 }
 h1{
-  text-align: center;
-  font-family: Inter;
-  font-size: 70.65px;
-  font-weight: 800;
-  text-align: center;
+overflow: hidden;
+font-family: Inter;
+font-size: 70.65px;
+font-weight: 800;
+line-height: 55.5px;
+text-align: center;
 }
 .RedLine
 {
@@ -32,7 +33,7 @@ h1{
   left: 500px;
   display: flex;
   margin: 0%;
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
 #GetStarted
 {
@@ -63,14 +64,14 @@ overflow: hidden;
 #Curve
 {
   position: absolute;
-  left: 32%;
-  top: 4.8%;
+  left: 490.02px;
+  top: 222px;
   height: 200px;
   width: 200px;
   transform: rotate(18.10deg);
   background: none;
 }
-.BlackBox #BlackContainer
+.BlackBox 
 {
 width: 992px;
 height: 483px;
@@ -78,6 +79,44 @@ top: 610px;
 left: 225px;
 gap: 0px;
 background: var(--Dark, rgba(37, 37, 37, 1));
+
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#BlackContainer
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.TrustedByOwner
+{
+  text-align: center;
+   margin-top: 5%;
+   font-family: "Inter", sans-serif;
+   font-size: 40px;
+   font-weight: 400;
+   line-height: 73.32px;
+}
+.TrustedByOwner span
+{
+  font-weight: 600;
+}
+.MiniContainer
+{
+margin-top: 5%;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap:20px;
+}
+.MiniContainer .Boxes
+{
+width: 197px;
+height: 140px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+background: rgba(217, 217, 217, 1);
+border: 1px solid rgba(0, 0, 0, 1);
 }
 .CenterBox
 {
@@ -106,18 +145,20 @@ flex-direction: column;
   font-weight: 600;
   text-align: center;
 }
-.CenterBox img
+.underLineG
+{
+  position: absolute;
+}
+/* .CenterBox img
 {
   height: 10px;
   width: 220px;
   right: 1%;
   top: 45%;
-}
-.underLineW
+} */
+.underLineText
 {
   position: absolute;
-  top:55px;
-  right: 10px;
   transform: rotate(360deg);
   overflow-y: hidden;
 }
@@ -190,10 +231,11 @@ flex-direction: column;
   position: relative;
   margin-top: 5%;
   width: 1400px;
-  height: 700px;
+  height: 150px;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  /* overflow: hidden; */
+  /* background-color: aliceblue; */
 }
 .FinestWorks div{
   position: absolute;
@@ -219,17 +261,23 @@ flex-direction: column;
   padding: 10px;
   cursor: pointer;
 }
+.Slider_Div
+{
+  width: 1300px;
+  /* background-color: aqua; */
+}
+/* .underLineW
+{
+  position: absolute;
+} */
 .underLineG
 {
   position: absolute;
   top:70px;
-  right: 10px;
-  overflow-y: hidden;
-}
-.FinestWorks img
-{
-  height: 10px;
-  width: 220px;
+  /* right: 10px; */
+  /* overflow-y: hidden; */
+  /* height: 10px; */
+  width: 270px;
 }
 .FinestWorks .greenContainer
 {
@@ -241,7 +289,25 @@ top: 30px;
 border-radius: 8px;
 border: 1px solid rgba(68, 201, 91, 0.5);
 background-color: rgba(68, 201, 91, 0.15);
-align-self: flex-start;
+}
+/* .ImgDiv
+{
+  position:absolute;
+  top:0;
+  left: 0;
+  height: 443px;
+  width: 620px;
+  background-color: aqua;
+} */
+.Img img
+{
+  /* position: absolute; */
+  object-fit: cover;
+  top:0;
+  left: 0;
+  bottom:0;
+  height: 100%;
+  width: 100%;
 }
 .FinestWorks .blueContainer
 {
@@ -330,19 +396,39 @@ padding: 0%;
 .FAQ
 {
 margin-top: 5%;
-width: 1400px;
-height: 500px;
-color: black;
-font-family: "Playfair Display", serif;
-font-size: 35px;
-font-weight: 300;
+width: 1380px;
+margin-bottom: 100px;
+font-family: "Playfair Display",serif;
+font-size: 55px;
+font-weight: 400;
+line-height: 73.32px;
+text-align: left;
 }
-.FAQ span
+.FAQ span{
+
+font-family: Playfair Display;
+font-size: 55px;
+font-weight: 600;
+line-height: 73.32px;
+text-align: left;
+}
+.FAQ span button
 {
+  color:var(--black-bg, rgba(11, 11, 11, 1));
+  background-color: transparent;
   font-weight: 400;
+  border: none;
+  height: 35px;
+  width: 35px;
+  font-size: 25px;
+  text-align: center;
 }
 .FAQ center{
   margin-bottom: 3%;
+  font-family: Playfair Display;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 73.32px;
 }
 .FAQ p
 {
@@ -351,6 +437,14 @@ font-size: 20px;
 font-weight: 200;
 padding: 20px;
 padding-left: 40px;
+}
+.FaqText
+{
+font-family: Inter;
+font-size: 16px;
+font-weight: 300;
+line-height: 20px;
+text-align: left;
 }
 .operator
 {
@@ -433,7 +527,7 @@ padding-left: 40px;
   margin-top: 100px;
   margin-left: 900px;
 }
-@media screen and (max-width:890px) {
+@media screen and (max-width:940px) {
 #h1,#h1sec{
   font-size: 6vw;
 }

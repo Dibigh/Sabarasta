@@ -1,9 +1,13 @@
 import React from 'react'
-import './ContentWrapper.css'
+import styles from './ContentWrapper.module.css'
 const ContentWrapper=({children})=>{
   return (
-    <div id='contentwrapper'>{children}</div>
+    <>
+    <p>this is header</p>
+    <div id={styles.contentwrapper}>{children}</div>
+    <p>this is footer</p>
+    </>
   )
 }
 
-export default ContentWrapper
+export default ContentWrapper;

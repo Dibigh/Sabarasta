@@ -1,0 +1,925 @@
+.bodyContainer
+{
+  display: flex;
+  position: relative;
+  height: auto;
+  flex-direction: column;
+  top: 50px;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.temporary_nav
+{
+  position: relative;
+  left:110px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 90px;
+}
+.temporary_nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:15px;
+  align-items: center;
+}
+.temporary_nav ul li{
+  list-style: none;
+  display: inline-block;
+}
+.temporary_nav ul li img{
+  position: absolute;
+  top:3px;
+  padding-left: 4px;
+}
+h1{
+  text-align: center;
+  font-family: Inter;
+  font-size: 70.65px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.UnderlineText .underLine
+{
+  position: relative;
+  left: 0px;
+  display: flex;
+  margin: 0%;
+  transform: scale(0.7);
+}
+.introText p
+{
+  width: 1400px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24.2px;
+  text-align: center;
+  color: var(--Dark, rgba(37, 37, 37, 1));
+}
+.BestText p
+{
+  text-transform: uppercase;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  text-align: center;
+
+}
+.BestText p span
+{
+  color: var(--Blue, rgba(47, 134, 235, 1));
+}
+.bubbly
+{
+  position: relative;
+  top: -20px;
+  left: 1230px;
+}
+#contact
+{
+  background-color: var(--Dark, rgba(37, 37, 37, 1));
+  color: var(--Text-over-primary, rgba(255, 255, 255, 1));
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+}
+.inlineContain 
+{
+  position: relative;
+  height: 420px;
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#orangeContainer
+{
+  background-color: rgba(239, 57, 52, 0.15);
+  position: absolute;
+  width: 400px;
+  height: 310px;
+  border-radius: 8px;
+  border: 1px solid rgba(239, 57, 52, 0.5);
+  left: 50px;
+  margin-top:100px;
+}
+#orangeContainer h2
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: justified;
+  background: none;
+}
+
+#orangeContainer p
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Inter;
+  font-size: 16px; 
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justified;
+  background: none;
+}
+#greenContainer
+{
+  position: absolute;
+  background-color: rgba(68, 201, 91, 0.15);
+  width: 400px;
+  height: 310px;
+  border-radius: 8px;
+  margin-top: 100px;
+  border: 1px solid rgba(68, 201, 91, 0.5);
+}
+#greenContainer h2
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: justified;
+  background: none;
+}
+
+#greenContainer p
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Inter;
+  font-size: 16px; 
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justified;
+  background: none;
+}
+#blueContainer
+{
+  position: absolute;
+  background-color:rgba(47, 134, 235, 0.15);
+  border: 1px solid rgba(47, 134, 235, 0.5);
+  width: 400px;
+  height: 310px;
+  border-radius: 8px;
+  right: 50px;
+  margin-top: 100px;
+}
+#blueContainer h2
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: justified;
+  background: none;
+}
+#blueContainer p
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Inter;
+  font-size: 16px; 
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justified;
+  background: none;
+}
+#separatingline{
+    margin-top: 5%;
+    width:90%;
+    height: 1px;
+    opacity:30%;
+    background-color: black
+}
+.centerTextDiv
+{
+margin-top: 5%;
+width: 800px;
+height: 340px;
+}
+.centerTextDiv p
+{
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.2px;
+text-align: justified;
+color: var(--Dark, rgba(37, 37, 37, 1));
+}
+@media screen and (max-width:1400px)
+{
+  .bodyContainer
+{
+  max-width: 1024px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.temporary_nav
+{
+  left:60px;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 90px;
+}
+.bodyContainer h1{
+  font-size: 50.65px;
+}
+
+.UnderlineText .underLine
+{
+  top:-10px;
+  left: 0px;
+  transform: scale(0.5);
+}
+.introText p
+{
+  width: 960px;
+  font-size: 17px;
+  line-height: 20.2px;
+}
+.BestText p
+{
+  font-size: 17px;
+  line-height: 20.2px;
+}
+.bubbly
+{
+  position: relative;
+  top: -15px;
+  left: 900px;
+}
+#contact
+{
+  width: 145px;
+  height: 45px;
+}
+.inlineContain 
+{
+  height: 435px;
+  width: 1024px;
+}
+#orangeContainer
+{
+  width: 288px;
+  height: 380px;
+  left: 50px;
+  margin-top:40px;
+}
+#orangeContainer h2
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+#orangeContainer p
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px; 
+  line-height: 24px;
+}
+#greenContainer
+{
+  width: 288px;
+  height: 380px;
+  margin-top: 40px;
+}
+#greenContainer h2
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+#greenContainer p
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px; 
+  line-height: 24px;
+}
+#blueContainer
+{
+  width: 288px;
+  height: 380px;
+  right: 50px;
+  margin-top: 40px;
+}
+#blueContainer h2
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+#blueContainer p
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Inter;
+  font-size: 16px; 
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justified;
+  background: none;
+}
+#separatingline{
+    margin-top: 5%;
+    width:90%;
+
+}
+.centerTextDiv
+{
+margin-top: 5%;
+width: 800px;
+height: 340px;
+}
+.centerTextDiv p
+{
+font-size: 17px;
+line-height: 20.2px;
+}  
+}
+@media screen and (max-width:1022px)
+{
+  .bodyContainer
+{
+  max-width: 960px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.temporary_nav
+{
+  left:60px;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 90px;
+}
+.bodyContainer h1{
+  font-size: 45.65px;
+}
+
+.UnderlineText .underLine
+{
+  top:-10px;
+  left: 0px;
+  transform: scale(0.5);
+}
+.introText p
+{
+  width: 726px;
+  font-size: 12px;
+  line-height: 18.2px;
+}
+.BestText p
+{
+  font-size: 12px;
+  line-height: 28.2px;
+}
+.bubbly
+{
+  position: relative;
+  top: -20px;
+  left:660px;
+  transform: scale(0.6);
+}
+#contact
+{
+  width: 135px;
+  height: 40px;
+}
+.inlineContain 
+{
+  height: 470px;
+  width: 768px;
+}
+#orangeContainer
+{
+  width: 200px;
+  height: 420px;
+  left: 50px;
+  margin-top:40px;
+}
+#orangeContainer h2
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+#orangeContainer p
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#greenContainer
+{
+  width: 200px;
+  height:420px;
+  margin-top: 40px;
+}
+#greenContainer h2
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+#greenContainer p
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#blueContainer
+{
+  width: 200px;
+  height: 420px;
+  right: 50px;
+  margin-top: 40px;
+}
+#blueContainer h2
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+#blueContainer p
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Inter;
+  font-size: 14px; 
+  font-weight: 400;
+  line-height: 20px;
+  text-align: justified;
+  background: none;
+}
+#separatingline{
+    margin-top: 5%;
+    width:90%;
+
+}
+.centerTextDiv
+{
+margin-top: 5%;
+width: 648px;
+height: 340px;
+}
+.centerTextDiv p
+{
+font-size: 14px;
+line-height: 20.2px;
+}  
+}
+@media screen and (max-width:766px)
+{
+  .bodyContainer
+{
+  max-width: 425px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.temporary_nav
+{
+  left:40px;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 90px;
+}
+.temporary_nav ul li 
+{
+  font-size: 12px;
+}
+.bodyContainer h1{
+  font-size: 30.65px;
+}
+
+.UnderlineText .underLine
+{
+  top:-20px;
+  left: 0px;
+  transform: scale(0.35);
+}
+.introText p
+{
+  width: 375px;
+  font-size: 12px;
+  line-height: 18.2px;
+}
+.BestText p
+{
+  font-size: 12px;
+  line-height: 28.2px;
+}
+.bubbly
+{
+  top: -20px;
+  left: 330px;
+  transform: scale(0.6);
+}
+#contact
+{
+  width: 135px;
+  height: 40px;
+}
+.inlineContain 
+{
+  height: 1040px;
+  width: 425x;
+}
+#orangeContainer
+{
+  width: 345px;
+  height: 300px;
+  left: 210px;
+  margin-top:40px;
+}
+#orangeContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+#orangeContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#greenContainer
+{
+  width: 345px;
+  height:300px;
+  margin-top: 380px;
+  left:210px;
+}
+#greenContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 30px;
+}
+#greenContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#blueContainer
+{
+  width: 345px;
+  height: 300px;
+  right: 50px;
+  left:210px;
+  margin-top: 720px;
+}
+#blueContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 30px;
+}
+#blueContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#separatingline{
+    margin-top: 10%;
+    width:90%;
+
+}
+.centerTextDiv
+{
+margin-top: 5%;
+width: 345px;
+height: 340px;
+}
+.centerTextDiv p
+{
+font-size: 12px;
+line-height: 20.2px;
+}  
+}
+@media screen and (max-width:422px)
+{
+  .bodyContainer
+{
+  max-width: 375px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.temporary_nav
+{
+  left:35px;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 90px;
+}
+.temporary_nav ul li 
+{
+  font-size: 10px;
+}
+.bodyContainer h1{
+  font-size: 35.65px;
+  line-height: 40px;
+}
+
+.UnderlineText .underLine
+{
+  top:0px;
+  left: 0px;
+  transform: scale(0.3);
+}
+.introText p
+{
+  width: 345px;
+  font-size: 8px;
+  line-height: 12.2px;
+}
+.BestText p
+{
+  font-size: 10px;
+  line-height: 28.2px;
+}
+.bubbly
+{
+  position: relative;
+  top: -20px;
+  left: 220px;
+  transform: scale(0.4);
+}
+#contact
+{
+  width: 85px;
+  height: 30px;
+  font-size: 12px;
+}
+.inlineContain 
+{
+  height: 1040px;
+  width: 375x;
+}
+#orangeContainer
+{
+  width: 305px;
+  height: 310px;
+  left: 230px;
+  margin-top:40px;
+}
+#orangeContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#orangeContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 12px; 
+  line-height: 20px;
+}
+#greenContainer
+{
+  width: 305px;
+  height: 310px;
+  left: 230px;
+  margin-top: 380px;
+}
+#greenContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 20px;
+  line-height: 30px;
+}
+#greenContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 12px; 
+  line-height: 20px;
+}
+#blueContainer
+{
+  width: 305px;
+  height: 310px;
+  left: 230px;
+  margin-top: 720px;
+}
+#blueContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 20px;
+  line-height: 30px;
+}
+#blueContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 12px; 
+  line-height: 20px;
+}
+#separatingline{
+    margin-top: 10%;
+    width:90%;
+
+}
+.centerTextDiv
+{
+margin-top: 5%;
+width: 315px;
+height: 340px;
+}
+.centerTextDiv p
+{
+font-size: 10px;
+line-height: 20.2px;
+}  
+}
+@media screen and (max-width:373px)
+{
+  .bodyContainer
+{
+  max-width: 320px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.temporary_nav
+{
+  left:30px;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 90px;
+}
+.temporary_nav ul li 
+{
+  font-size: 10px;
+}
+.bodyContainer h1{
+  font-size: 20.65px;
+}
+
+.UnderlineText .underLine
+{
+  top:-10px;
+  left: 0px;
+  transform: scale(0.25);
+}
+.introText p
+{
+  width:265px;
+  font-size: 8px;
+  line-height: 12.2px;
+}
+.BestText p
+{
+  font-size: 9px;
+  line-height: 28.2px;
+}
+.bubbly
+{
+  position: relative;
+  top: -20px;
+  left: 210px;
+  transform: scale(0.4);
+}
+#contact
+{
+  width: 85px;
+  height: 30px;
+  font-size: 12px;
+}
+.inlineContain 
+{
+  height: 1150px;
+  width: 375x;
+}
+#orangeContainer
+{
+  width: 260px;
+  height: 340px;
+  left: 255px;
+  margin-top:40px;
+}
+#orangeContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+#orangeContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#greenContainer
+{
+  width: 260px;
+  height: 340px;
+  left: 255px;
+  margin-top: 415px;
+}
+#greenContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 30px;
+}
+#greenContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#blueContainer
+{
+  width: 260px;
+  height: 340px;
+  left: 255px;
+  margin-top: 790px;
+}
+#blueContainer h2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 30px;
+}
+#blueContainer p
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px; 
+  line-height: 20px;
+}
+#separatingline{
+    margin-top: 10%;
+    width:90%;
+}
+.centerTextDiv
+{
+margin-top: 5%;
+width: 260px;
+height: 365px;
+}
+.centerTextDiv p
+{
+font-size: 10px;
+line-height: 20.2px;
+}  
+}

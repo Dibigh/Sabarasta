@@ -4,14 +4,8 @@
   position: relative;
   height: auto;
   flex-direction: column;
-  top: 60px;
+  top: 80px;
   align-items: center;
-}
- #starDoodle
-{
-  position: relative;
-  right: 140px;
-  transform: scale(0.8);
 }
 h1{
   text-align: center;
@@ -20,7 +14,15 @@ h1{
   font-weight: 800;
   text-align: center;
 }
+.bodyContainer p
+{
+font-family: Inter;
+font-size: 20px;
+font-weight: 300;
+line-height: 24.2px;
+text-align: center;
 
+}
 .UnderlineText .underLine
 {
   position: relative;
@@ -30,36 +32,45 @@ h1{
   transform: scale(0.8);
 }
 .UnderlineText img{
-    width: 450px;
-    background-image: none;
+  width: 450px;
+  background-image: none;
+}
+.bubbly
+{
+  position: absolute;
+  top: 205px;
+  left: 1230px;
+}
+.bubbly
+{
+  position: absolute;
+  top: 170px;
+  left: 1220px;
 }
 .DropDown
 {
     position: relative;
     height: auto;
-    width: 1420px;
+    width: 1360px;
+    /* height: fit-content; */
     margin-top: 5%;
     /* left: 80px; */
     /* background-color: brown; */
 }
 .row{
     position: relative;
-    left: 10px;
     display: flex;
     justify-content: flex-start;
     margin-bottom: 50px;
-    /* background-color: blueviolet; */
-    gap:40px;
+    background-color: blueviolet;
+    padding-left: 35px;
+    gap:35px;
 }
 .column1
 {  
     position: relative;
-    /* padding: 1rem 0; */
     flex: 1;
-    width: 600px;
     height: 100px;
-    /* background-color: aqua; */
-  
 }
 .column1 input
 {
@@ -67,60 +78,89 @@ h1{
     top:0;
     left: 0px;
     height: 75px;
-    width: 635px;
+    width: 585px;
     font-family: "Inter";
     padding: 10px;
     font-size: 20px;
     font-weight: 400;
     padding-left: 30px;
+     outline: none;
     border: 1px solid rgba(37, 37, 37, 0.5);
+    background-color: aqua;
 }
-.column1 span{
+.DropMenu
+{
   position: absolute;
-  right: 30px;
-  top:45%;
-  transform: scale(2);
-  cursor:pointer;
-}
-#ColumnBig
-{
-    height: 520px;
-    width: 1420px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-}
-#ColumnBig input
-{
-  height: 450px;
-  width: 1365px;
+  top:0;
+  left: 0px;
+  height: 95px;
+  width: 627px;
   font-family: "Inter";
   padding: 10px;
   font-size: 20px;
   font-weight: 400;
   padding-left: 30px;
-  padding-top: 0;
-  color: black;
-  text-align: start;
+  outline: none;
+  border: 1px solid rgba(37, 37, 37, 0.5);
 }
-#columnBig input::placeholder
+#ColumnBig
+{
+  position: relative;
+  height: 510px;
+  border: 1px;
+  box-sizing: border-box;
+  text-align: center;
+  /* background-color: aqua; */
+}
+#ColumnBig textarea
+{
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  width: 1308px;
+  font-family: "Inter";
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 30px;
+  text-align: start;
+  outline: none;
+  border: 1px solid rgba(37, 37, 37, 0.5);
+}
+ .inputF
+ {
+  display: inline-block; 
+  height:440px;
+  width: 100%;
+ }
+.Placeholder
 {
  position: absolute;
- top :0;
- left: 0;
+ color: rgba(138, 138, 138, 1);
+ font-family: Inter;
+ font-size: 20px;
+ font-weight: 400;
+ line-height: 24.2px;
+ text-align: center;
 }
 #ColumnBig p{
-  display: flex;
   position: absolute;
-  top:480px;
-  left: 450px;
+  top:450px;
+  left: 33%;
   color:rgba(37, 37, 37, 0.7);
-  font-size: small
-;
+  font-size: small;
 }
-.bodyContainer button{
-  margin-top: 0.2%;
+.sendEnquiry{
   background: var(--Dark, rgba(37, 37, 37, 1));
   color: white;
   width: 300px;
   height: 50px;
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 17.82px;
+  font-weight: 700;
+  line-height: 34.53px;
+  text-align: center;
+  margin-left:50px;
+  margin-bottom: 50px;
 }
