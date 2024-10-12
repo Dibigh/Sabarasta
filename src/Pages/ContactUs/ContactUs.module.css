@@ -62,7 +62,7 @@ text-align: center;
     display: flex;
     justify-content: flex-start;
     margin-bottom: 50px;
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
     padding-left: 35px;
     gap:35px;
 }
@@ -86,7 +86,7 @@ text-align: center;
     padding-left: 30px;
      outline: none;
     border: 1px solid rgba(37, 37, 37, 0.5);
-    /* background-color: aqua; */
+    background-color: aqua;
 }
 .DropMenu
 {

@@ -1,28 +1,30 @@
  .MainBody
  {
-   margin-top: 0%;
-   display: flex;
-   height:auto;
+  margin-top: 0%;
+  display: flex;
+  height:auto;
   flex-direction: column;
   align-items: center;
   justify-content: center;
  }
 header
 {
+  top:0px;
+  z-index: 111;
   border-bottom: 1px solid rgba(24, 28, 57, 0.3);
   height: 64px;
-  width: 100%;
+  width: 99%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
 }
 #logo
 {
  width: 130px;
- margin-left: 115px;
+ margin-left: 110px;
 }
-
 .navText
 {
   text-decoration: none;
@@ -65,7 +67,7 @@ nav ul li
   cursor: pointer;
   font-weight: 600;
   font-size: 16px;
-  margin-right: 115px;
+  margin-right: 100px;
 }
 #contact:hover
 {
@@ -206,7 +208,6 @@ header nav
 }
 header nav
 {
-  position: fixed;
   top:0;
   left:0;
   height: 100%;

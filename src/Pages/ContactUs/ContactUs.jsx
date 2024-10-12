@@ -8,31 +8,6 @@ import bubbles from '../../Logo/Bubbles.svg'
 import { useEffect, useState,useRef } from "react";
 
 function ContactUs() {
-  //  const [result, setResult] = React.useState("");
-
-  // const onSubmit = async (event) => {
-  //   event.preventDefault();
-  //   setResult("Sending....");
-  //   const formData = new FormData(event.target);
-
-  //   formData.append("access_key", "10e5b3c1-57a8-4902-b261-723a971465fa");
-
-  //   const response = await fetch("https://api.web3forms.com/submit", {
-  //     method: "POST",
-  //     body: formData
-  //   });
-
-  //   const data = await response.json();
-
-  //   if (data.success) {
-  //     setResult("Form Submitted Successfully");
-  //     event.target.reset();
-  //   } else {
-  //     console.log("Error", data);
-  //     setResult(data.message);
-    // }
-  // };
-   const [submittedData, setSubmittedData] = useState(null);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -40,46 +15,88 @@ function ContactUs() {
     budget:'',
     start:'',
     info:'',
+    message:'',
   });
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value, // Update the specific field
-    });
-  }
-      const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent the default form submission
-    console.log('Form Data Submitted:', formData);
-    // Here you can handle the form data (e.g., send it to an API)
-     setSubmittedData(formData); // Store the submitted data
-    // Reset form if needed
-    setFormData({ name: '', email: '', age: '' });
-     const regex = /^(?:[1-9]\d{3,}|1000)$/;
+  const [errors, setErrors] = useState({});
 
-    if (regex.test(inputValue)) {
-      alert(`Input is valid: ${inputValue}`);
-      setError('');
-    } else {
-      setError('Please enter a number greater than or equal to 1000.');
+const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value
+        });
+    };
+     const validateForm = () => {
+    let formErrors = {};
+    if(formData.name='') 
+      formErrors.name = "Name is required !";
+    if(!formData.email) {
+      formErrors.email = "Email is required !";;
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      formErrors.email="Email is invalid !";
     }
-
+    if(formData.phone.length!=10)
+    {
+      formErrors.phone='Invalid Phone number !';
+    }
+    if(formData.budget<500)
+    {
+      formErrors.budget='Budget must be greater than 500$ !';
+    }
+    if (!formData.message) 
+    formErrors.message = "Message is required !";
+    return formErrors;
   };
+  const handleSubmit = async (e) => {
+        e.preventDefault();
+       const validationErrors = validateForm();
+      if (Object.keys(validationErrors).length > 0) {
+      setErrors(validationErrors);
+      return;
+      }
+      setErrors({});
+      validateForm();
+        try {
+            const response = await fetch('http://localhost:5000/send-email', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            });
+            const data = await response.json();
+            if (data.success && Object.keys(errors).length === 0 ) {
+                alert('Email sent successfully!');
+                  setFormData({
+                  name: '',
+                  email: '',
+                  phone: '',
+                  budget:'',
+                  start:'',
+                  info:'',  
+                  message:'',
+                  });
+            } else {
+                alert('Error sending email');
+            }
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    };
   return (
     <>
      <form className={styles.bodyContainer} onSubmit={handleSubmit}>
-     {/* <div className={styles.bodyContainer}> */}
         <h1>Connect With Us: Let's Start a</h1>
         <h1>Conversation.<span className={styles.UnderlineText}><img className={styles.underLine} src={greenLine} alt='GreenLine'/></span></h1>
         <p>We're here to listen, collaborate, and help you achieve your goals. Reach out today to get started.</p><img src={bubbles} className={styles.bubbly}></img>
         <div className={styles.DropDown}>
           <div className={styles.row}>
-            <div className = {styles.column1}><input type='text' placeholder='Enter your name *' name="name" value={formData.name} onChange={handleChange}></input></div>
-            <div className = {styles.column1}><input type='text' placeholder='Enter your phone number *' name='phone' value={formData.phone} onChange={handleChange}></input></div>
+            <div className = {styles.column1}><input type='text' placeholder='Enter your name *' name="name" value={formData.name} onChange={handleChange}/>123123</div>{errors.name && <span style={{ color: 'red' }}>{errors.name}</span>}
+            <div className = {styles.column1}><input type='text' placeholder='Enter your phone number *' name='phone' value={formData.phone} onChange={handleChange}/></div>
             </div>
             <div className={styles.row}>
-            <div className = {styles.column1}><input type='text' placeholder='Enter your Email ID *' name='email' value={formData.email} onChange={handleChange}></input></div>
-            <div className = {styles.column1}><input type='text' placeholder='Your budget in USD *' name='budget' value={formData.budget} onChange={handleChange}></input></div>
+            <div className = {styles.column1}><input type='text' placeholder='Enter your Email ID *' name='email' value={formData.email} onChange={handleChange}/></div>
+            <div className = {styles.column1}><input type='text' placeholder='Your budget in USD *' name='budget' value={formData.budget} onChange={handleChange}/></div>
           </div>
            <div className={styles.row}>
               <div className = {styles.column1}>
@@ -92,6 +109,7 @@ function ContactUs() {
               </div>
                <div className = {styles.column1}>
               <select className={styles.DropMenu} name ='info' value={formData.info} onChange={handleChange}>
+                 <option value="how do you hear about us" >How do you hear about us</option>
                  <option value="Referral" >Referral</option>
                  <option value="Google/Search" >Google/Search</option>
                  <option value="Awards" >Awards</option>
@@ -101,22 +119,11 @@ function ContactUs() {
               </div>
           </div>
               <div className={styles.row}>
-              <div id = {styles.ColumnBig}><textarea type='text' placeholder="About your Project *" className={styles.inputF} name='message' rows='200' onChange={handleChange}></textarea><div className={styles.Placeholder}></div><center><p>By proceeding, you are agreeing to Sabrasta’s privacy policy & communication</p></center></div>
+              <div id = {styles.ColumnBig}><textarea type='text' placeholder="About your Project *" className={styles.inputF} name='message' value ={formData.message} rows='200' onChange={handleChange}></textarea><div className={styles.Placeholder}></div><center><p>By proceeding, you are agreeing to Sabrasta’s privacy policy & communication</p></center></div>
           </div>
         </div>
         <button type= "submit" className={styles.sendEnquiry} onClick={()=>{console.log('button pressed')}}>Send Enquiry</button>
-        {/* </div> */}
       </form>
-       {submittedData && (
-        <div style={{ marginTop: '20px', border: '1px solid #ccc', padding: '10px' }}>
-          <h3>Submitted Data:</h3>
-          <p><strong>Name:</strong> {submittedData.name}</p>
-          <p><strong>Email</strong> {submittedData.email}</p>
-          <p><strong>Budget</strong> {submittedData.budget}</p>
-          <p><strong>start</strong> {submittedData.start}</p>
-          <p><strong>info</strong> {submittedData.info}</p>
-        </div>
-      )}
     </>
   )
 }

@@ -40,7 +40,7 @@ const Navbar = () => {
             </button>   
           </ul>  
         </nav>
-        <span id='span'><button id='contact' onClick={buttonPressed}>Contact Us</button></span>
+        <button id='contact' onClick={buttonPressed}>Contact Us</button>
          <button className = 'nav-btn' onClick={showNavbar}>
             <FaBars className='hamburger_icon'/>
          </button>

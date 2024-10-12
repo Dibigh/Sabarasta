@@ -18,10 +18,10 @@ body{
   background-color: black;
 }
 #scroll{
-  overflow-y: scroll;
+  overflow-y: auto;
   flex: 1;
 }
-@media screen and (max-width:975px) {
+/* @media screen and (max-width:975px) {
 }
   #fixed
   {
@@ -41,5 +41,5 @@ body{
   {
      width: 100%;
   height: 100vh;
-  }
-}
+  } */
+/* } */

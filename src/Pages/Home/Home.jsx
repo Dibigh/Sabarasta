@@ -61,7 +61,20 @@ const[Symbol3,ChangeSymbol3]=useState('+');
         <button id = {styles.GetStarted} onClick = {buttonPressed}>Get Started</button>
         <img id = {styles.Curve} src={curveLine} alt = 'curve'/>
         <div className={styles.BlackBox}>
-          <span id={styles.BlackContainer}></span>
+          <span id={styles.BlackContainer}> <iframe
+        src="https://www.youtube.com/embed/B6h-kQLQqec?autoplay=1&mute=1&controls=1"
+        frameBorder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+        title="Sarrainodu"
+          style={{
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+  }}
+      /></span>
         </div>
         <div className={styles.TrustedByOwner}>Trusted by<span> The Leaders</span>
           <div className={styles.MiniContainer}>

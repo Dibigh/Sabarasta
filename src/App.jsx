@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop.jsx'; 
 import Home from './Pages/Home/Home.jsx';
 import Products from './Pages/Products/Products.jsx';
 import Industries from './Pages/Industries/Industries.jsx';
@@ -29,16 +30,14 @@ import ITConsulting from './Pages/Services/IT-Consulting/ITConsulting.jsx';
 import UXUI from './Pages/Services/UXUI/UXUI.jsx';
 import './App.css';
 import ContentWrapper from './components/ContentWrapper/ContentWrapper.jsx';
-// import Slider1 from "./components/Slider1/Slider1.jsx";
-
 function App()
 {
   return(
     <>
     <BrowserRouter>
-      <Navbar />
-      {/* <Slider1/> */}
-    <div id='scroll'>
+    <ScrollToTop />
+      <div id='scroll'>
+          <Navbar />
       <Routes>
       <Route path='/' element={<Home/>}></Route>
       <Route path='/Products' element={<Products/>}></Route>
